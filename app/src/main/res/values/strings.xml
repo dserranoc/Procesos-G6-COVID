@@ -10,4 +10,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <!--  Textos  -->
+    <string name="country_text">País: </string>
+    <string name="active_cases_text">Casos activos: </string>
+    <string name="critical_cases_text">Casos críticos: </string>
+    <string name="total_cases_text">Contagios: </string>
+    <string name="recovered_cases_text">Recuperados: </string>
+    <string name="today_cases_text">Contagios (hoy): </string>
 </resources>
