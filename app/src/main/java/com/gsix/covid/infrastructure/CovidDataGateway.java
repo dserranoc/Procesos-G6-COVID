@@ -1,6 +1,6 @@
-package infrastructure;
+package com.gsix.covid.infrastructure;
 
-import domain.CovidData;
+import com.gsix.covid.domain.CovidData;
 
 public interface CovidDataGateway {
 

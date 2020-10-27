@@ -1,8 +1,8 @@
-package application.service;
+package com.gsix.covid.application.service;
 
-import domain.CovidData;
-import infrastructure.CovidDataGateway;
-import infrastructure.CovidDataGatewayImpl;
+import com.gsix.covid.domain.CovidData;
+import com.gsix.covid.infrastructure.CovidDataGateway;
+import com.gsix.covid.infrastructure.CovidDataGatewayImpl;
 
 public class GetCovidDataServiceImpl implements GetCovidDataService {
 

@@ -1,4 +1,4 @@
-package domain;
+package com.gsix.covid.domain;
 
 import java.util.Date;
 

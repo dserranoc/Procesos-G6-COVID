@@ -1,10 +1,11 @@
-package infrastructure;
+package com.gsix.covid.infrastructure;
 
-import domain.CovidData;
-import infrastructure.util.JsonUtil;
 import org.json.JSONObject;
 
 import java.util.Date;
+
+import com.gsix.covid.domain.CovidData;
+import com.gsix.covid.infrastructure.util.JsonUtil;
 
 public class CovidDataGatewayImpl implements CovidDataGateway {
 

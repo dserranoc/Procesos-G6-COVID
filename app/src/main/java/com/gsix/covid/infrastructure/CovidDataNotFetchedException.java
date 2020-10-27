@@ -1,4 +1,4 @@
-package infrastructure;
+package com.gsix.covid.infrastructure;
 
 public class CovidDataNotFetchedException extends RuntimeException {
 

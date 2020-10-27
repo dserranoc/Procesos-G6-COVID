@@ -1,6 +1,6 @@
-package application.service;
+package com.gsix.covid.application.service;
 
-import domain.CovidData;
+import com.gsix.covid.domain.CovidData;
 
 public interface GetCovidDataService {
 
