@@ -4,11 +4,14 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.gsix.covid.application.android.task.GetCovidDataTask;
 import com.gsix.covid.application.service.GetCovidDataServiceImpl;
+import com.gsix.covid.domain.CovidData;
 import com.gsix.covid.infrastructure.CovidDataGatewayImpl;
 
 import androidx.navigation.NavController;
@@ -19,51 +22,54 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity extends AppCompatActivity {
+import java.text.SimpleDateFormat;
+import java.util.concurrent.ExecutionException;
 
-    private AppBarConfiguration mAppBarConfiguration;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-//        StrictMode.setThreadPolicy(policy);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Snackbar.make(view, "TEXTO", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
-                .setDrawerLayout(drawer)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
+        refreshData();
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+    public void refreshData() {
+        try {
+            CovidData data = new GetCovidDataTask().execute().get();
+
+            TextView country = (TextView) findViewById(R.id.country);
+            country.setText(data.getCountry());
+
+            TextView activeCases = (TextView) findViewById(R.id.activeCases);
+            activeCases.setText(String.valueOf(data.getActiveCases()));
+
+            TextView criticalCases = (TextView) findViewById(R.id.criticalCases);
+            criticalCases.setText(String.valueOf(data.getCriticalCases()));
+
+            TextView recovered = (TextView) findViewById(R.id.recovered);
+            recovered.setText(String.valueOf(data.getRecoveredCases()));
+
+            TextView totalCases = (TextView) findViewById(R.id.totalCases);
+            totalCases.setText(String.valueOf(data.getTotalCases()));
+
+            TextView todayCases = (TextView) findViewById(R.id.todayCases);
+            todayCases.setText(String.valueOf(data.getTodayCases()));
+
+            TextView deceases = (TextView) findViewById(R.id.deceases);
+            deceases.setText(String.valueOf(data.getTotalDeceases()));
+
+            TextView population = (TextView) findViewById(R.id.population);
+            population.setText(String.valueOf(data.getPopulation()));
+
+            TextView lastUpdated = (TextView) findViewById(R.id.lastUpdated);
+            SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM, YYYY");
+            lastUpdated.setText(formatter.format(data.getLastUpdated()));
+
+        } catch (Exception exception) {
+            throw new RuntimeException(exception);
+        }
+
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
 }
