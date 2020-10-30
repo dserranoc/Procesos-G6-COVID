@@ -33,7 +33,8 @@ public class CovidDataGatewayTest {
 
     @Test(expected = CovidDataNotFetchedException.class)
     public void unsuccessfulFetchCovidData() {
-        Mockito.when(covidDataGateway.fetchCovidData()).thenThrow(new CovidDataNotFetchedException(null));
+        Mockito.when(covidDataGateway.fetchCovidData())
+                .thenThrow(new CovidDataNotFetchedException(Mockito.mock(Exception.class)));
         covidDataGateway.fetchCovidData();
     }
 
