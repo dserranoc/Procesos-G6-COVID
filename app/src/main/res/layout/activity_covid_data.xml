@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Country -->
+    <TextView
+        android:id="@+id/countryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="25dp"
+        android:text="Country: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="93dp"
+        android:layout_y="25dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <!-- Active Cases -->
+    <TextView
+        android:id="@+id/activeCasesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="56dp"
+        android:text="Active Cases: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/activeCases"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="136dp"
+        android:layout_y="56dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+
+    <!-- Critical Cases -->
+
+    <TextView
+        android:id="@+id/criticalCasesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="86dp"
+        android:text="Critical Cases: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/criticalCases"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="142dp"
+        android:layout_y="87dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+
+    <!-- Recovered -->
+
+    <TextView
+        android:id="@+id/recoveredLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="117dp"
+        android:text="Recovered: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/recovered"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="115dp"
+        android:layout_y="117dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+
+    <!-- Total cases -->
+
+    <TextView
+        android:id="@+id/totalCasesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="147dp"
+        android:text="Total cases: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/totalCases"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="124dp"
+        android:layout_y="147dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <!-- Today cases -->
+
+    <TextView
+        android:id="@+id/todayCasesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="177dp"
+        android:text="Today cases: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/todayCases"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="132dp"
+        android:layout_y="177dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <!-- Today deaths -->
+
+    <TextView
+        android:id="@+id/deceasesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="207dp"
+        android:text="Today deaths: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/deceases"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="140dp"
+        android:layout_y="207dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <!-- Population -->
+
+    <TextView
+        android:id="@+id/populationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="237dp"
+        android:text="Population: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="117dp"
+        android:layout_y="237dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+
+    <!-- Last updated -->
+
+    <TextView
+        android:id="@+id/lastUpdatedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="267dp"
+        android:text="Last updated: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lastUpdated"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_x="137dp"
+        android:layout_y="267dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/mainMenuButton"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="308dp"
+        android:onClick="goToMainMenu"
+        android:text="Go back to main menu" />
+
+</AbsoluteLayout>
