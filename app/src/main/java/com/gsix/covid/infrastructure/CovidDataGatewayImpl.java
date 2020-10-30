@@ -5,7 +5,7 @@ import org.json.JSONObject;
 import java.util.Date;
 
 import com.gsix.covid.domain.CovidData;
-import com.gsix.covid.infrastructure.util.UrlJsonFetcher;
+import com.gsix.covid.infrastructure.json.UrlJsonFetcher;
 
 public class CovidDataGatewayImpl implements CovidDataGateway {
 
@@ -14,7 +14,7 @@ public class CovidDataGatewayImpl implements CovidDataGateway {
     private final UrlJsonFetcher jsonFetcher;
 
     public CovidDataGatewayImpl() {
-        jsonFetcher = new UrlJsonFetcher();
+        this.jsonFetcher = new UrlJsonFetcher();
     }
 
     public CovidData fetchCovidData() throws CovidDataNotFetchedException {
