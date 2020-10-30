@@ -11,11 +11,11 @@ import java.io.Reader;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-public class JsonUtil {
+public class UrlJsonFetcher {
 
     private static final Charset CHARSET = Charset.forName("UTF-8");
 
-    public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException {
+    public JSONObject fetchFromUrl(String url) throws IOException, JSONException {
         try (InputStream input = new URL(url).openStream()) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(input, CHARSET));
             String jsonText = readAll(reader);
@@ -23,7 +23,7 @@ public class JsonUtil {
         }
     }
 
-    private static String readAll(Reader reader) throws IOException {
+    private String readAll(Reader reader) throws IOException {
         StringBuilder builder = new StringBuilder();
         int character;
         while ((character = reader.read()) != -1) {
