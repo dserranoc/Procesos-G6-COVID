@@ -135,7 +135,7 @@
         android:layout_height="30dp"
         android:layout_x="23dp"
         android:layout_y="207dp"
-        android:text="Today deaths: "
+        android:text="Total deaths: "
         android:textSize="18sp" />
 
     <TextView
