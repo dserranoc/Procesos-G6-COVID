@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.gsix.covid.application.android.task.GetCovidDataTask;
-import com.gsix.covid.domain.task.TaskRunner;
+import com.gsix.covid.infrastructure.runner.TaskRunner;
 
 import java.text.SimpleDateFormat;
 

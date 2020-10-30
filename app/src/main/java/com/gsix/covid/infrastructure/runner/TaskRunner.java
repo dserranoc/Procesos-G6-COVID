@@ -1,4 +1,4 @@
-package com.gsix.covid.domain.task;
+package com.gsix.covid.infrastructure.runner;
 
 import android.os.Handler;
 import android.os.Looper;
