@@ -26,7 +26,7 @@ public class CovidDataGatewayImpl implements CovidDataGateway {
                 new Date(json.getLong("updated"))
             );
         } catch (Exception exception) {
-            throw new CovidDataNotFetchedException("Could not fetch covid data", exception);
+            throw new CovidDataNotFetchedException(exception);
         }
     }
 

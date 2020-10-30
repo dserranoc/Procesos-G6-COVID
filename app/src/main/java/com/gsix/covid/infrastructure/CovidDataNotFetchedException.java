@@ -2,8 +2,8 @@ package com.gsix.covid.infrastructure;
 
 public class CovidDataNotFetchedException extends RuntimeException {
 
-    public CovidDataNotFetchedException(String errorMessage, Throwable error) {
-        super(errorMessage, error);
+    public CovidDataNotFetchedException(Throwable error) {
+        super("Could not fetch COVID data", error);
     }
 
 }
