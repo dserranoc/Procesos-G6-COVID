@@ -19,6 +19,7 @@ public class CovidDataActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_covid_data);
         refreshData();
+        // switchToChosenLang()
     }
 
     public void refreshData() {
@@ -27,28 +28,28 @@ public class CovidDataActivity extends AppCompatActivity {
                 TextView country = (TextView) findViewById(R.id.country);
                 country.setText(data.getCountry());
 
-                TextView activeCases = (TextView) findViewById(R.id.activeCases);
+                TextView activeCases = findViewById(R.id.activeCases);
                 activeCases.setText(String.valueOf(data.getActiveCases()));
 
-                TextView criticalCases = (TextView) findViewById(R.id.criticalCases);
+                TextView criticalCases = findViewById(R.id.criticalCases);
                 criticalCases.setText(String.valueOf(data.getCriticalCases()));
 
-                TextView recovered = (TextView) findViewById(R.id.recovered);
+                TextView recovered = findViewById(R.id.recovered);
                 recovered.setText(String.valueOf(data.getRecoveredCases()));
 
-                TextView totalCases = (TextView) findViewById(R.id.totalCases);
+                TextView totalCases = findViewById(R.id.totalCases);
                 totalCases.setText(String.valueOf(data.getTotalCases()));
 
-                TextView todayCases = (TextView) findViewById(R.id.todayCases);
+                TextView todayCases = findViewById(R.id.todayCases);
                 todayCases.setText(String.valueOf(data.getTodayCases()));
 
-                TextView deceases = (TextView) findViewById(R.id.deceases);
+                TextView deceases = findViewById(R.id.deceases);
                 deceases.setText(String.valueOf(data.getTotalDeceases()));
 
-                TextView population = (TextView) findViewById(R.id.population);
+                TextView population = findViewById(R.id.population);
                 population.setText(String.valueOf(data.getPopulation()));
 
-                TextView lastUpdated = (TextView) findViewById(R.id.lastUpdated);
+                TextView lastUpdated = findViewById(R.id.lastUpdated);
                 SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM, YYYY");
                 lastUpdated.setText(formatter.format(data.getLastUpdated()));
             });
@@ -59,6 +60,7 @@ public class CovidDataActivity extends AppCompatActivity {
 
     public void goToMainMenu(View view) {
         Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 

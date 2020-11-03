@@ -1,6 +1,8 @@
 package com.gsix.covid.infrastructure;
 
 import com.gsix.covid.domain.CovidData;
+import com.gsix.covid.infrastructure.cases.get_covid_data.CovidDataGateway;
+import com.gsix.covid.infrastructure.cases.get_covid_data.CovidDataNotFetchedException;
 
 import org.junit.Before;
 import org.junit.Test;
