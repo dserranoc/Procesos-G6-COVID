@@ -1,4 +1,4 @@
-package com.gsix.covid.infrastructure;
+package com.gsix.covid.infrastructure.cases.get_covid_data;
 
 import org.json.JSONObject;
 
