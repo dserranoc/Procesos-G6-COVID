@@ -29,9 +29,9 @@ public class UrlJsonFetcherTest {
     }
 
     @Test
-    public void successfulFetchFromUrl() throws IOException, JSONException {
-        Mockito.when(jsonFetcher.fetchFromUrl(URL)).thenReturn(Mockito.mock(JSONObject.class));
-        JSONObject json = jsonFetcher.fetchFromUrl(URL);
+    public void successfulFetchFromUrl() throws Exception {
+        Mockito.when(jsonFetcher.fetchObjectFromUrl(URL)).thenReturn(Mockito.mock(JSONObject.class));
+        JSONObject json = jsonFetcher.fetchObjectFromUrl(URL);
         assertNotNull(json);
     }
 
