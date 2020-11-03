@@ -5,6 +5,7 @@ import org.json.JSONObject;
 import java.util.Date;
 
 import com.gsix.covid.domain.CovidData;
+import com.gsix.covid.infrastructure.cases.CovidDataNotFetchedException;
 import com.gsix.covid.infrastructure.json.UrlJsonFetcher;
 
 public class CovidDataGatewayImpl implements CovidDataGateway {
@@ -19,7 +20,7 @@ public class CovidDataGatewayImpl implements CovidDataGateway {
 
     public CovidData fetchCovidData() throws CovidDataNotFetchedException {
         try {
-            JSONObject json = jsonFetcher.fetchFromUrl(REQUEST_URL);
+            JSONObject json = jsonFetcher.fetchObjectFromUrl(REQUEST_URL);
             return new CovidData(
                 json.getString("country"),
                 json.getInt("critical"),
