@@ -15,4 +15,13 @@
         android:onClick="seeCovidData"
         android:text="See current statistics" />
 
+    <Button
+        android:id="@+id/countryMenuButton"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="93dp"
+        android:onClick="seeCovidRankingData"
+        android:text="See country ranking" />
+
 </AbsoluteLayout>

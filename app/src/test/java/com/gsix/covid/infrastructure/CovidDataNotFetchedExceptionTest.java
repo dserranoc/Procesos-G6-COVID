@@ -1,6 +1,6 @@
 package com.gsix.covid.infrastructure;
 
-import com.gsix.covid.infrastructure.cases.get_covid_data.CovidDataNotFetchedException;
+import com.gsix.covid.infrastructure.cases.CovidDataNotFetchedException;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
