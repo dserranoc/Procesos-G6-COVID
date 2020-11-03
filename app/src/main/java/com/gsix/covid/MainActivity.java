@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void seeCovidData(View view) {
         Intent intent = new Intent(this, CovidDataActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 
