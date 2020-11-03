@@ -1,5 +1,6 @@
 package com.gsix.covid.infrastructure.json;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -15,11 +16,18 @@ public class UrlJsonFetcher {
 
     private static final Charset CHARSET = Charset.forName("UTF-8");
 
-    public JSONObject fetchFromUrl(String url) throws IOException, JSONException {
+    public JSONObject fetchObjectFromUrl(String url) throws Exception {
+        return new JSONObject(readJsonToStringFromUrl(url));
+    }
+
+    public JSONArray fetchArrayFromUrl(String url) throws Exception {
+        return new JSONArray(readJsonToStringFromUrl(url));
+    }
+
+    private String readJsonToStringFromUrl(String url) throws Exception {
         try (InputStream input = new URL(url).openStream()) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(input, CHARSET));
-            String jsonText = readString(reader);
-            return new JSONObject(jsonText);
+            return readString(reader);
         }
     }
 

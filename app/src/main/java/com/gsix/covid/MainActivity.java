@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void seeCovidRankingData(View view) {
+        Intent intent = new Intent(this, CovidDataRankingActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
 }

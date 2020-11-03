@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovidDataRankingActivity">
+
+    <!-- Country -->
+
+    <!-- First Country -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="26dp"
+        android:text="Top 5 in Cases Amount"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/first_country"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="56dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/first_amount"
+        android:layout_width="273dp"
+        android:layout_height="30dp"
+        android:layout_x="202dp"
+        android:layout_y="56dp"
+        android:text=""
+        android:textSize="18sp" />
+
+
+    <!-- Second Country -->
+
+    <TextView
+        android:id="@+id/second_country"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="86dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/second_amount"
+        android:layout_width="279dp"
+        android:layout_height="30dp"
+        android:layout_x="202dp"
+        android:layout_y="87dp"
+        android:text=""
+        android:textSize="18sp" />
+
+
+    <!-- Third Country -->
+
+    <TextView
+        android:id="@+id/third_country"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="117dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/third_amount"
+        android:layout_width="252dp"
+        android:layout_height="30dp"
+        android:layout_x="202dp"
+        android:layout_y="117dp"
+        android:text=""
+        android:textSize="18sp" />
+
+
+    <!-- Fourth Country -->
+
+    <TextView
+        android:id="@+id/fourth_country"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="147dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fourth_amount"
+        android:layout_width="261dp"
+        android:layout_height="30dp"
+        android:layout_x="202dp"
+        android:layout_y="147dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <!-- Fifth Country -->
+
+    <TextView
+        android:id="@+id/fifth_country"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="23dp"
+        android:layout_y="177dp"
+        android:text="Loading..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fifth_amount"
+        android:layout_width="269dp"
+        android:layout_height="30dp"
+        android:layout_x="202dp"
+        android:layout_y="177dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/mainMenuButton"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="222dp"
+        android:onClick="goToMainMenu"
+        android:text="Go back to main menu" />
+
+</AbsoluteLayout>

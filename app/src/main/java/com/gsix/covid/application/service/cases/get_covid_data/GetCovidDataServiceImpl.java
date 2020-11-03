@@ -6,7 +6,7 @@ import com.gsix.covid.infrastructure.cases.get_covid_data.CovidDataGatewayImpl;
 
 public class GetCovidDataServiceImpl implements GetCovidDataService {
 
-    private CovidDataGateway gateway;
+    private final CovidDataGateway gateway;
 
     public GetCovidDataServiceImpl() {
         this.gateway = new CovidDataGatewayImpl();
