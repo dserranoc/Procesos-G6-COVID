@@ -7,16 +7,17 @@
     tools:context=".CovidDataRankingActivity">
 
     <!-- Country -->
+
+    <!-- First Country -->
     <TextView
         android:id="@+id/title"
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:layout_x="93dp"
-        android:layout_y="25dp"
+        android:layout_x="23dp"
+        android:layout_y="26dp"
         android:text="Top 5 in Cases Amount"
         android:textSize="18sp" />
 
-    <!-- First Country -->
     <TextView
         android:id="@+id/first_country"
         android:layout_width="wrap_content"
