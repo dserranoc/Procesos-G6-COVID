@@ -19,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
+    public void GoToInfo(View v) {
+        startActivity(new Intent(this, ActividadInfoCovid.class));
+    }
 
 }

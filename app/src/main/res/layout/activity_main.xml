@@ -15,4 +15,13 @@
         android:onClick="seeCovidData"
         android:text="See current statistics" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="115dp"
+        android:onClick="GoToInfo"
+        android:text="InfoCovid" />
+
 </AbsoluteLayout>
