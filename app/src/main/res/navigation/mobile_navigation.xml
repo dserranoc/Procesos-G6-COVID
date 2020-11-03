@@ -30,7 +30,7 @@
         tools:layout="@layout/fragment_info" />
     <fragment
         android:id="@+id/nav_covid_test"
-        android:name="com.gsix.covid.ui.info.InfoFragment"
+        android:name="com.gsix.covid.ui.test.TestFragment"
         android:label="@string/menu_covid_test"
-        tools:layout="@layout/fragment_info" />
+        tools:layout="@layout/fragment_test" />
 </navigation>
