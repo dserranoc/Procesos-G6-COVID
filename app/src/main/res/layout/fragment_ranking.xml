@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CovidDataRankingActivity">
+    tools:context=".ui.ranking.RankingFragment">
 
     <!-- Country -->
 
@@ -118,14 +117,5 @@
         android:layout_y="177dp"
         android:text=""
         android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/mainMenuButton"
-        android:layout_width="353dp"
-        android:layout_height="wrap_content"
-        android:layout_x="21dp"
-        android:layout_y="222dp"
-        android:onClick="goToMainMenu"
-        android:text="Go back to main menu" />
 
 </AbsoluteLayout>
