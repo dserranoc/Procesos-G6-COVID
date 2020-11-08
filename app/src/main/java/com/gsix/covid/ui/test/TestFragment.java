@@ -22,7 +22,7 @@ public class TestFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_test, container, false);
         final TextView textView = root.findViewById(R.id.text_test);
-        textView.setText("Aquí va el codigo de los test.");
+        textView.setText("In development!");
 
         return root;
     }
