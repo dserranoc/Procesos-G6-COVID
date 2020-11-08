@@ -20,7 +20,19 @@
     <string name="menu_covid_stats">Covid Stats</string>
     <string name="menu_covid_ranking">Covid Ranking</string>
     <string name="menu_covid_info">Covid Info</string>
-    <string name="menu_covid_test">Covid Test</string>
+    <string name="menu_covid_test">Covid Quiz</string>
+
+    <!--  Home  -->
+    <string name="home_h1">General information about CovidInfo</string>
+    <string name="home_text1">CovidInfo allows the user to see real-time data of Covid-19.</string>
+    <string name="home_h2">Real time data</string>
+    <string name="home_text2">To access the functionality, we will simply display the side menu and click on the Covid Stats option. Here is information with the number of cases, deaths, accumulated incidence and other data about the covid in the country that we are.</string>
+    <string name="home_h3">Ranking of countries with more cases</string>
+    <string name="home_text3">To see the ranking of the countries with the most cases of Covid-19 worldwide, you must access the Covid Ranking option located in the side menu.</string>
+    <string name="home_h4">Info about Covid-19</string>
+    <string name="home_text4">In the drop-down menu we can click on the Covid Info option to obtain information about the symptoms of Covid-19 and about the danger it can pose to oneself.</string>
+    <string name="home_h5">Quiz</string>
+    <string name="home_text5">With this functionality we will be able to perform tests that will test our knowledge about Covid-19 and prevention and hygiene methods.</string>
 
     <!--  Info  -->
     <string name="info_q1">What are the symptoms of COVID-19?</string>
