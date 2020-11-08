@@ -5,10 +5,15 @@
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">G-Six</string>
+    <string name="nav_header_subtitle">Procesos Software - URJC</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <!--  Reusables  -->
+
+    <string name="loading">Loading...</string>
+
 
     <!-- Menu strings -->
     <string name="menu_home">Home</string>
@@ -16,4 +21,26 @@
     <string name="menu_covid_ranking">Covid Ranking</string>
     <string name="menu_covid_info">Covid Info</string>
     <string name="menu_covid_test">Covid Test</string>
+
+    <!--  Info  -->
+    <string name="info_q1">What are the symptoms of COVID-19?</string>
+    <string name="info_a1">The most common symptoms of COVID-19 are fever, dry cough, and fatigue. Other less common symptoms that affect some patients include aches and pains, nasal congestion, headache, conjunctivitis, sore throat, diarrhea, loss of taste or smell, and skin rashes or color changes. on the fingers or toes. These symptoms are usually mild and begin gradually. Some of the infected people have only very mild symptoms.</string>
+    <string name="info_q2">Am I in danger?</string>
+    <string name="info_a2">Most people (about 80%) recover from the disease without the need for hospital treatment. About 1 in 5 people who contract COVID-19 develop a severe condition and experience breathing difficulties. Older people and those with previous medical conditions such as high blood pressure, heart or lung problems, diabetes, or cancer are more likely to develop severe conditions. However, anyone can get COVID-19 and become seriously ill.</string>
+
+    <!--  Ranking  -->
+    <string name="ranking_title">Top 5 in Cases Amount</string>
+
+    <!--  Stats  -->
+    <string name="stats_country">Country: </string>
+    <string name="stats_active_cases">Active cases: </string>
+    <string name="stats_critical_cases">Critical cases: </string>
+    <string name="stats_recovered">Recovered: </string>
+    <string name="stats_total_cases">Total cases: </string>
+    <string name="stats_today_cases">Today cases: </string>
+    <string name="stats_total_deceases">Total deceases: </string>
+    <string name="stats_population">Population</string>
+    <string name="stats_last_updated">Last updated: </string>
+
+
 </resources>
