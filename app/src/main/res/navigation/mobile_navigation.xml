@@ -12,14 +12,25 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.gsix.covid.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_covid_stats"
+        android:name="com.gsix.covid.ui.stats.StatsFragment"
+        android:label="@string/menu_covid_stats"
+        tools:layout="@layout/fragment_stats" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.gsix.covid.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_covid_ranking"
+        android:name="com.gsix.covid.ui.ranking.RankingFragment"
+        android:label="@string/menu_covid_ranking"
+        tools:layout="@layout/fragment_ranking" />
+
+    <fragment
+        android:id="@+id/nav_covid_info"
+        android:name="com.gsix.covid.ui.info.InfoFragment"
+        android:label="@string/menu_covid_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_covid_test"
+        android:name="com.gsix.covid.ui.test.TestFragment"
+        android:label="@string/menu_covid_test"
+        tools:layout="@layout/fragment_test" />
 </navigation>
