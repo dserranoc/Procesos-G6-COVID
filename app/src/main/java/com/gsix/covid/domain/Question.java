@@ -10,8 +10,8 @@ public class Question {
     private final List<String> possibleAnswers;
     private final String correctAnswer;
 
-    public Question(UUID id, String question, List<String> possibleAnswers, String correctAnswer) {
-        this.id = id;
+    public Question(String question, List<String> possibleAnswers, String correctAnswer) {
+        this.id = UUID.randomUUID();
         this.question = question;
         this.possibleAnswers = possibleAnswers;
         this.correctAnswer = correctAnswer;
