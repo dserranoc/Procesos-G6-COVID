@@ -90,5 +90,7 @@
 
     <string name="quiz_q8">¿Si tienes dolor de cabeza puedes tener covid?</string>
 
-
+    <string name="quiz_true">Verdadero</string>
+    <string name="quiz_send">Enviar</string>
+    <string name="quiz_exit">Salir</string>
 </resources>
