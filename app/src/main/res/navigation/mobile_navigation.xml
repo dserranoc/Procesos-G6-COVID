@@ -32,5 +32,5 @@
         android:id="@+id/nav_covid_test"
         android:name="com.gsix.covid.ui.quiz.QuizFragment"
         android:label="@string/menu_covid_test"
-        tools:layout="@layout/fragment_test" />
+        tools:layout="@layout/fragment_quiz" />
 </navigation>

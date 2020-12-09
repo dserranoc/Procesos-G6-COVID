@@ -1,12 +1,12 @@
 package com.gsix.covid.infrastructure.cases.get_covid_data;
 
-import org.json.JSONObject;
-
-import java.util.Date;
-
 import com.gsix.covid.domain.CovidData;
 import com.gsix.covid.infrastructure.cases.CovidDataNotFetchedException;
 import com.gsix.covid.infrastructure.json.UrlJsonFetcher;
+
+import org.json.JSONObject;
+
+import java.util.Date;
 
 public class CovidDataGatewayImpl implements CovidDataGateway {
 
