@@ -6,17 +6,17 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import com.gsix.covid.domain.contracts.ScoreContract;
 
-public class SQLiteHelper extends SQLiteOpenHelper {
+public class QuizSQLiteHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "pym.db";
 
-    public SQLiteHelper(Context context) {
+    public QuizSQLiteHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE " + ScoreContract.ScoreEntry.TABLE_NAME + " (" +
-                ScoreContract.ScoreEntry._ID + " INTEGER PRIMARY KEY," +
+                ScoreContract.ScoreEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 ScoreContract.ScoreEntry.COLUMN_NAME + " TEXT NOT NULL," +
                 ScoreContract.ScoreEntry.COLUMN_SCORE + " INTEGER NOT NULL)");
     }

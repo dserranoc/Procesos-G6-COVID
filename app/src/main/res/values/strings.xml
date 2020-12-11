@@ -57,40 +57,45 @@
 
     <!--quiz -->
 
-    <string name="quiz_q1">La tos seca, ¿Es un síntoma de covid?</string>
+    <string name="quiz_q1">Dry cough, is it a symptom of Covid?</string>
 
 
-    <string name="quiz_q2">¿CUál de los siguientes no es un sintoma de covid?</string>
-    <string name="quiz_q2_a1">-Dolor de cabeza</string>
-    <string name="quiz_q2_a2">-Congestión nasal</string>
-    <string name="quiz_q2_a3">+Caida de pelo</string>
-    <string name="quiz_q2_a4">-Perdida de gusto y de olfato</string>
+    <string name="quiz_q2">Which of the following is not a symptom of Covid?</string>
+    <string name="quiz_q2_a1">Headache</string>
+    <string name="quiz_q2_a2">Nasal congestion</string>
+    <string name="quiz_q2_a3">Hair loss</string>
+    <string name="quiz_q2_a4">Loss of taste and smell</string>
 
-    <string name="quiz_q3">¿Qué porcentaje de personas presentan un cuadro grave de covid?</string>
-    <string name="quiz_q3_a1">+20%</string>
-    <string name="quiz_q3_a2">-40%</string>
-    <string name="quiz_q3_a3">-60%</string>
-    <string name="quiz_q3_a4">-80%</string>
+    <string name="quiz_q3">What percentage of people have a severe case of Covid?</string>
+    <string name="quiz_q3_a1">20%</string>
+    <string name="quiz_q3_a2">40%</string>
+    <string name="quiz_q3_a3">60%</string>
+    <string name="quiz_q3_a4">80%</string>
 
-    <string name="quiz_q4">¿Cual de las siguientes personas  es más probable que presentan un cuadro grave de covid?</string>
-    <string name="quiz_q4_a1">-Un niño de 6 años</string>
-    <string name="quiz_q4_a2">-Un adolescente</string>
-    <string name="quiz_q4_a3">-Un jubilado</string>
-    <string name="quiz_q4_a4">+Un hombre con problemas pulmonares</string>
+    <string name="quiz_q4">Which of the following people is most likely to have severe case of Covid?</string>
+    <string name="quiz_q4_a1">A six years old kid</string>
+    <string name="quiz_q4_a2">A teenager</string>
+    <string name="quiz_q4_a3">A retiree</string>
+    <string name="quiz_q4_a4">A person with lung problems</string>
 
-    <string name="quiz_q5">¿Cuál de las siguientes patologías no te pone en riesgo de covid?</string>
-    <string name="quiz_q5_a1">-Diabetes</string>
-    <string name="quiz_q5_a2">+Epilesia</string>
-    <string name="quiz_q5_a3">-Asma</string>
+    <string name="quiz_q5">Which of the following pathologies does not put you at risk for Covid?</string>
+    <string name="quiz_q5_a1">Diabetes</string>
+    <string name="quiz_q5_a2">Epilepsy</string>
+    <string name="quiz_q5_a3">Asthma</string>
 
-    <string name="quiz_q6">¿Si tienes fiebre, tos y dolor de cabeza puedes tener covid?</string>
+    <string name="quiz_q6">If you have a fever, cough and headache, can you have Covid?</string>
 
 
-    <string name="quiz_q7">¿Si te duele el brazo derecho, estornudas y te encuetras cansado puedes tener covid?</string>
+    <string name="quiz_q7">If your right arm hurts, you sneeze and you feel tired, can you have Covid?</string>
 
-    <string name="quiz_q8">¿Si tienes dolor de cabeza puedes tener covid?</string>
+    <string name="quiz_q8">If you have a headache, can you have Covid?</string>
 
-    <string name="quiz_true">Verdadero</string>
-    <string name="quiz_send">Enviar</string>
-    <string name="quiz_exit">Salir</string>
+    <string name="quiz_yes">Yes</string>
+    <string name="quiz_no">No</string>
+
+    <string name="quiz_send">Submit</string>
+    <string name="quiz_score">Score: %1$d/8 </string>
+
+    <string name="quiz_error">You must check all the boxes!</string>
+
 </resources>

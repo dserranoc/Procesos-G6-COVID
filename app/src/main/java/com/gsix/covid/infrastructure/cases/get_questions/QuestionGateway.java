@@ -7,5 +7,5 @@ import java.util.UUID;
 public interface QuestionGateway {
     Question getById(UUID questionId);
     List<Question> getAll();
-    Question addQuestion(String question, List<String> answers, String correctAnswer);
+    void addQuestion(String question, List<String> answers, String correctAnswer);
 }

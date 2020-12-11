@@ -33,4 +33,8 @@ public class Question {
         return correctAnswer;
     }
 
+    public Boolean isCorrectAnswer(String answer) {
+        return answer.equals(this.correctAnswer);
+    }
+
 }
