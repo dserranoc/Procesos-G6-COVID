@@ -15,16 +15,16 @@
         android:text="@string/stats_country"
         android:textSize="18sp" />
 
+    <!-- Active Cases -->
     <TextView
         android:id="@+id/country"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="93dp"
+        android:layout_x="202dp"
         android:layout_y="25dp"
         android:text="@string/loading"
         android:textSize="18sp" />
 
-    <!-- Active Cases -->
     <TextView
         android:id="@+id/activeCasesLabel"
         android:layout_width="wrap_content"
@@ -34,17 +34,17 @@
         android:text="@string/stats_active_cases"
         android:textSize="18sp" />
 
+
+    <!-- Critical Cases -->
+
     <TextView
         android:id="@+id/activeCases"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="136dp"
-        android:layout_y="56dp"
+        android:layout_x="202dp"
+        android:layout_y="55dp"
         android:text="@string/loading"
         android:textSize="18sp" />
-
-
-    <!-- Critical Cases -->
 
     <TextView
         android:id="@+id/criticalCasesLabel"
@@ -55,17 +55,17 @@
         android:text="@string/stats_critical_cases"
         android:textSize="18sp" />
 
+
+    <!-- Recovered -->
+
     <TextView
         android:id="@+id/criticalCases"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="142dp"
-        android:layout_y="87dp"
+        android:layout_x="202dp"
+        android:layout_y="85dp"
         android:text="@string/loading"
         android:textSize="18sp" />
-
-
-    <!-- Recovered -->
 
     <TextView
         android:id="@+id/recoveredLabel"
@@ -76,17 +76,17 @@
         android:text="@string/stats_recovered"
         android:textSize="18sp" />
 
+
+    <!-- Total cases -->
+
     <TextView
         android:id="@+id/recovered"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="115dp"
-        android:layout_y="117dp"
+        android:layout_x="202dp"
+        android:layout_y="115dp"
         android:text="@string/loading"
         android:textSize="18sp" />
-
-
-    <!-- Total cases -->
 
     <TextView
         android:id="@+id/totalCasesLabel"
@@ -97,16 +97,16 @@
         android:text="@string/stats_total_cases"
         android:textSize="18sp" />
 
+    <!-- Today cases -->
+
     <TextView
         android:id="@+id/totalCases"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="124dp"
-        android:layout_y="147dp"
+        android:layout_x="202dp"
+        android:layout_y="145dp"
         android:text="@string/loading"
         android:textSize="18sp" />
-
-    <!-- Today cases -->
 
     <TextView
         android:id="@+id/todayCasesLabel"
@@ -117,16 +117,16 @@
         android:text="@string/stats_today_cases"
         android:textSize="18sp" />
 
+    <!-- Today deaths -->
+
     <TextView
         android:id="@+id/todayCases"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="132dp"
-        android:layout_y="177dp"
+        android:layout_x="202dp"
+        android:layout_y="175dp"
         android:text="@string/loading"
         android:textSize="18sp" />
-
-    <!-- Today deaths -->
 
     <TextView
         android:id="@+id/deceasesLabel"
@@ -143,8 +143,8 @@
         android:id="@+id/deceases"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="153dp"
-        android:layout_y="207dp"
+        android:layout_x="202dp"
+        android:layout_y="205dp"
         android:text="@string/loading"
         android:textSize="18sp" />
 
@@ -157,17 +157,17 @@
         android:text="@string/stats_population"
         android:textSize="18sp" />
 
+
+    <!-- Last updated -->
+
     <TextView
         android:id="@+id/population"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="117dp"
-        android:layout_y="237dp"
+        android:layout_x="202dp"
+        android:layout_y="235dp"
         android:text="@string/loading"
         android:textSize="18sp" />
-
-
-    <!-- Last updated -->
 
     <TextView
         android:id="@+id/lastUpdatedLabel"
@@ -182,8 +182,8 @@
         android:id="@+id/lastUpdated"
         android:layout_width="339dp"
         android:layout_height="30dp"
-        android:layout_x="137dp"
-        android:layout_y="267dp"
+        android:layout_x="202dp"
+        android:layout_y="265dp"
         android:text="@string/loading"
         android:textSize="18sp" />
 </AbsoluteLayout>

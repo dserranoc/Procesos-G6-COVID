@@ -30,7 +30,17 @@
         tools:layout="@layout/fragment_info" />
     <fragment
         android:id="@+id/nav_covid_test"
-        android:name="com.gsix.covid.ui.test.TestFragment"
+        android:name="com.gsix.covid.ui.quiz.QuizFragment"
         android:label="@string/menu_covid_test"
-        tools:layout="@layout/fragment_test" />
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/nav_lang"
+        android:name="com.gsix.covid.ui.lang.LangFragment"
+        android:label="@string/menu_lang"
+        tools:layout="@layout/fragment_lang" />
+    <fragment
+        android:id="@+id/nav_scores"
+        android:name="com.gsix.covid.ui.scores.ScoresFragment"
+        android:label="@string/menu_scores"
+        tools:layout="@layout/scores_fragment" />
 </navigation>

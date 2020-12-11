@@ -1,5 +1,7 @@
 package com.gsix.covid.ui.ranking;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,9 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.gsix.covid.HomeActivity;
 import com.gsix.covid.R;
 import com.gsix.covid.application.android.task.GetCovidDataRankingTask;
 import com.gsix.covid.infrastructure.runner.TaskRunner;
+import com.orhanobut.hawk.Hawk;
 
 public class RankingFragment extends Fragment {
 
@@ -34,7 +38,6 @@ public class RankingFragment extends Fragment {
     public void refreshData() {
         try {
             new TaskRunner().executeAsync(new GetCovidDataRankingTask(), (data) -> {
-
                 TextView first_country = getView().findViewById(R.id.first_country);
                 first_country.setText(data.get(0).getCountry());
 
@@ -65,6 +68,7 @@ public class RankingFragment extends Fragment {
                 TextView fifth_amount = getView().findViewById(R.id.fifth_amount);
                 fifth_amount.setText(String.valueOf(data.get(4).getTotalCases()));
 
+                Hawk.put("lang", "es");
             });
         } catch(Exception e) {
             e.printStackTrace();

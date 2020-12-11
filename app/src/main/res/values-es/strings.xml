@@ -1,0 +1,104 @@
+<resources>
+    <!--    App name    -->
+    <string name="app_name">Covid App</string>
+
+    <string name="title_activity_home">Pagina principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">G-Six</string>
+    <string name="nav_header_subtitle">Procesos Software - URJC</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!--  Reusables  -->
+
+    <string name="loading">Loading...</string>
+
+
+    <!-- Menu strings -->
+    <string name="menu_home">Pagina principal</string>
+    <string name="menu_covid_stats">Estado</string>
+    <string name="menu_covid_ranking">Ranking</string>
+    <string name="menu_covid_info">Informacion</string>
+    <string name="menu_covid_test">Cuestionario</string>
+    <string name="menu_scores">Puntuaciones</string>
+    <string name="menu_lang">Idioma</string>
+
+    <!--  Home  -->
+    <string name="home_h1">Información general sobre CovidInfo</string>
+    <string name="home_text1">CovidInfo permite al usuario ver en tiempo real la información sobre el Covid-19</string>
+    <string name="home_h2">Datos en tiempo real</string>
+    <string name="home_text2">Para acceder, simplemente mostraremos el menú lateral y daremos clic en Estadisticas Covid. Aquí esta la información con el número de casos, muertes, incidencia acumulada y otros datos del covid en el país que nos encontramos.</string>
+    <string name="home_h3">Ranking de paises con mas casos</string>
+    <string name="home_text3">Para ver el ranking de los países con más casos de Covid-19 a nivel mundial, debes acceder a la opción Covid Ranking ubicada en el menú lateral.</string>
+    <string name="home_h4">Datos sobre Covid-19</string>
+    <string name="home_text4">En el menú desplegable podemos hacer clic en la opción Covid Info para obtener información sobre los síntomas del Covid-19 y sobre el peligro que puede suponer para uno mismo.</string>
+    <string name="home_h5">Cuestionarios</string>
+    <string name="home_text5">Con esta funcionalidad podremos realizar pruebas que pondrán a prueba nuestro conocimiento sobre Covid-19 y métodos de prevención e higiene.</string>
+
+    <!--  Info  -->
+    <string name="info_q1">¿Cuáles son los síntomas del COVID-19?</string>
+    <string name="info_a1">Los síntomas más comunes de COVID-19 son fiebre, tos seca y fatiga. Otros síntomas menos comunes que afectan a algunos pacientes incluyen dolores y molestias, congestión nasal, dolor de cabeza, conjuntivitis, dolor de garganta, diarrea, pérdida del gusto o el olfato y erupciones cutáneas o cambios de color en los dedos de las manos o de los pies. Estos síntomas suelen ser leves y comienzan gradualmente. Algunas de las personas infectadas solo tienen síntomas muy leves.</string>
+    <string name="info_q2">Estoy en peligro?</string>
+    <string name="info_a2">La mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad sin necesidad de tratamiento hospitalario. Aproximadamente 1 de cada 5 personas que contraen COVID-19 desarrollan una afección grave y experimentan dificultades respiratorias. Las personas mayores y aquellas con afecciones médicas previas, como presión arterial alta, problemas cardíacos o pulmonares, diabetes o cáncer, tienen más probabilidades de desarrollar afecciones graves. Sin embargo, cualquier persona puede contraer COVID-19 y enfermarse gravemente.</string>
+
+    <!--  Ranking  -->
+    <string name="ranking_title">Top 5 en cantidad de casos</string>
+
+    <!--  Stats  -->
+    <string name="stats_country">País: </string>
+    <string name="stats_active_cases">Casos activos: </string>
+    <string name="stats_critical_cases">Casos críticos: </string>
+    <string name="stats_recovered">Recuperados: </string>
+    <string name="stats_total_cases">Casos totales: </string>
+    <string name="stats_today_cases">Casos hoy: </string>
+    <string name="stats_total_deceases">Total muertes: </string>
+    <string name="stats_population">Población</string>
+    <string name="stats_last_updated">Actualizado: </string>
+
+
+    <!--quiz -->
+
+    <string name="quiz_q1">Tos seca, ¿es un síntoma de Covid?</string>
+
+
+    <string name="quiz_q2">¿Cuál de los siguientes no es un síntoma de Covid?</string>
+    <string name="quiz_q2_a1">Dolor de cabeza</string>
+    <string name="quiz_q2_a2">Congestión nasal</string>
+    <string name="quiz_q2_a3">Perdida de cabello</string>
+    <string name="quiz_q2_a4">Pérdida del gusto y el olfato</string>
+
+    <string name="quiz_q3">¿Qué porcentaje de personas tiene un caso grave de Covid?</string>
+    <string name="quiz_q3_a1">20%</string>
+    <string name="quiz_q3_a2">40%</string>
+    <string name="quiz_q3_a3">60%</string>
+    <string name="quiz_q3_a4">80%</string>
+
+    <string name="quiz_q4">¿Cuál de las siguientes personas tiene más probabilidades de tener un caso grave de Covid?</string>
+    <string name="quiz_q4_a1">Un niño de seis años</string>
+    <string name="quiz_q4_a2">Un adolescente</string>
+    <string name="quiz_q4_a3">Un jubilado</string>
+    <string name="quiz_q4_a4">Una persona con problemas pulmonares</string>
+
+    <string name="quiz_q5">¿Cuál de las siguientes patologías no lo pone en riesgo de contraer Covid?</string>
+    <string name="quiz_q5_a1">Diabetes</string>
+    <string name="quiz_q5_a2">Epilepsia</string>
+    <string name="quiz_q5_a3">Asma</string>
+
+    <string name="quiz_q6">Si tiene fiebre, tos y dolor de cabeza, ¿puede tener Covid?</string>
+
+
+    <string name="quiz_q7">Si le duele el brazo derecho, estornuda y se siente cansado, ¿puede tener Covid?</string>
+
+    <string name="quiz_q8">Si tiene dolor de cabeza, ¿puede tener Covid?</string>
+
+    <string name="quiz_yes">Si</string>
+    <string name="quiz_no">No</string>
+
+    <string name="quiz_send">Enviar</string>
+    <string name="quiz_score">Puntuación: %1$d/8 </string>
+
+    <string name="quiz_error">¡Debes marcar todas las casillas!</string>
+    <string name="lang_selection_msg">Elija el idioma deseado:</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ranking.RankingFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/english_lang"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_x="78dp"
+        android:layout_y="143dp"
+        android:text="English"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <Button
+        android:id="@+id/spanish_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_x="78dp"
+        android:layout_y="88dp"
+        android:text="Español"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/lang_sel"
+        android:layout_width="288dp"
+        android:layout_height="27dp"
+        android:layout_x="79dp"
+        android:layout_y="49dp"
+        android:text="@string/lang_selection_msg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+
+</AbsoluteLayout>
