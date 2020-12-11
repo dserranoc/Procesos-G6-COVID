@@ -17,10 +17,11 @@
 
     <!-- Menu strings -->
     <string name="menu_home">Home</string>
-    <string name="menu_covid_stats">Covid Stats</string>
-    <string name="menu_covid_ranking">Covid Ranking</string>
-    <string name="menu_covid_info">Covid Info</string>
-    <string name="menu_covid_test">Covid Quiz</string>
+    <string name="menu_covid_stats">Stats</string>
+    <string name="menu_covid_ranking">Ranking</string>
+    <string name="menu_covid_info">Info</string>
+    <string name="menu_covid_test">Quiz</string>
+    <string name="menu_lang">Language</string>
 
     <!--  Home  -->
     <string name="home_h1">General information about CovidInfo</string>
@@ -97,5 +98,8 @@
     <string name="quiz_score">Score: %1$d/8 </string>
 
     <string name="quiz_error">You must check all the boxes!</string>
+
+    <string name="lang_selection_msg">Please choose the desired language:</string>
+    <string name="menu_scores">Scores</string>
 
 </resources>

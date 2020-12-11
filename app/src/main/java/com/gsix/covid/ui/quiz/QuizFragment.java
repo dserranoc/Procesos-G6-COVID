@@ -22,8 +22,10 @@ import com.gsix.covid.domain.contracts.ScoreContract;
 import com.gsix.covid.infrastructure.cases.get_questions.QuestionGatewayImpl;
 import com.gsix.covid.infrastructure.cases.get_questions.QuizSQLiteHelper;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 public class QuizFragment extends Fragment {
@@ -136,7 +138,9 @@ public class QuizFragment extends Fragment {
             QuizSQLiteHelper dbHelper = new QuizSQLiteHelper(getContext());
             SQLiteDatabase db = dbHelper.getWritableDatabase();
             ContentValues values = new ContentValues();
-            values.put(ScoreContract.ScoreEntry.COLUMN_NAME, "Daniel");
+            values.put(ScoreContract.ScoreEntry.COLUMN_NAME, "CovidInfo");
+            SimpleDateFormat dt = new SimpleDateFormat("hh:mm:ss dd-MM-yyyy");
+            values.put(ScoreContract.ScoreEntry.COLUMN_DATE, dt.format(new Date()));
             values.put(ScoreContract.ScoreEntry.COLUMN_SCORE, score);
             long newRowId = db.insert(ScoreContract.ScoreEntry.TABLE_NAME, null, values);
 

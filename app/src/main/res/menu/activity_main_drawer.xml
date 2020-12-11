@@ -14,16 +14,26 @@
             android:title="@string/menu_covid_stats" />
         <item
             android:id="@+id/nav_covid_ranking"
-            android:icon="@android:drawable/star_off"
+            android:icon="@drawable/star_mine"
             android:title="@string/menu_covid_ranking" />
         <item
             android:id="@+id/nav_covid_info"
-            android:icon="@drawable/ic_action_info_outline"
+            android:icon="@drawable/help_outline"
             android:title="@string/menu_covid_info" />
 
         <item
             android:id="@+id/nav_covid_test"
-            android:icon="@drawable/ic_action_radio_button_checked"
+            android:icon="@drawable/receipt"
             android:title="@string/menu_covid_test" />
+
+        <item
+            android:id="@+id/nav_scores"
+            android:icon="@drawable/ic_score"
+            android:title="@string/menu_scores" />
+
+        <item
+            android:id="@+id/nav_lang"
+            android:icon="@drawable/lang"
+            android:title="@string/menu_lang" />
     </group>
 </menu>
