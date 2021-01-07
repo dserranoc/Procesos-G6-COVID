@@ -26,6 +26,16 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="83dp" />
 
+    <Button
+        android:id="@+id/french_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_x="78dp"
+        android:layout_y="198dp"
+        android:text="Francais"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="195dp" />
+
     <TextView
         android:id="@+id/lang_sel"
         android:layout_width="288dp"
