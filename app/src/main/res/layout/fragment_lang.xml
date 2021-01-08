@@ -32,7 +32,7 @@
         android:layout_height="43dp"
         android:layout_x="78dp"
         android:layout_y="198dp"
-        android:text="Francais"
+        android:text="Français"
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="195dp" />
 
