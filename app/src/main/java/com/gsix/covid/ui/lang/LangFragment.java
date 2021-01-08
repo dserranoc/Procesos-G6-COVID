@@ -57,6 +57,15 @@ public class LangFragment extends Fragment {
                 }
             });
         }
+        if(true) {
+            final Button button = this.getActivity().findViewById(R.id.deustch_lang);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Hawk.put("lang", "de");
+                    restartActivity(getActivity());
+                }
+            });
+        }
     }
 
 
