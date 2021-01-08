@@ -1,0 +1,104 @@
+<resources>
+    <!--    App name    -->
+    <string name="app_name">Covid App</string>
+
+    <string name="title_activity_home">Pagina principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">G-Six</string>
+    <string name="nav_header_subtitle">Procesos Software - URJC</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!--  Reusables  -->
+
+    <string name="loading">Loading...</string>
+
+
+    <!-- Menu strings -->
+    <string name="menu_home">Página principal</string>
+    <string name="menu_covid_stats">Estado</string>
+    <string name="menu_covid_ranking">Ranking</string>
+    <string name="menu_covid_info">Em formação</string>
+    <string name="menu_covid_test">Questionário</string>
+    <string name="menu_scores">Pontuações</string>
+    <string name="menu_lang">Língua</string>
+
+    <!--  Home  -->
+    <string name="home_h1">Informações gerais sobre CovidInfo</string>
+    <string name="home_text1">CovidInfo permite que o usuário veja em tempo real as informações sobre Covid-19</string>
+    <string name="home_h2">Dados em tempo real</string>
+    <string name="home_text2">Para acessar, vamos simplesmente mostrar o menu lateral e clicar em Covid Statistics. Aqui estão as informações com o número de casos, óbitos, incidência acumulada e outros dados da covid no país em que estamos.</string>
+    <string name="home_h3">Classificação de países com mais casos</string>
+    <string name="home_text3">Para ver a classificação dos países com mais casos Covid-19 em todo o mundo, você deve acessar a opção Classificação Covid localizada no menu lateral.</string>
+    <string name="home_h4">Fatos sobre Covid-19</string>
+    <string name="home_text4">No menu suspenso, podemos clicar na opção Covid Info para obter informações sobre os sintomas do Covid-19 e sobre o perigo que ele pode representar para si mesmo.</string>
+    <string name="home_h5">Questionários</string>
+    <string name="home_text5">Com esta funcionalidade poderemos realizar testes que comprovarão nossos conhecimentos sobre a Covid-19 e métodos de prevenção e higiene.</string>
+
+    <!--  Info  -->
+    <string name="info_q1">Quais são os sintomas do COVID-19?</string>
+    <string name="info_a1">Os sintomas mais comuns da COVID-19 são febre, tosse seca e fadiga. Outros sintomas menos comuns que afetam alguns pacientes incluem dores e dores, congestão nasal, dor de cabeça, conjuntivite, dor de garganta, diarreia, perda de paladar ou cheiro e erupções cutâneas ou descoloração dos dedos das mãos. os pés. Esses sintomas são geralmente leves e começam gradualmente. Algumas das pessoas infectadas apresentam apenas sintomas muito leves.</string>
+    <string name="info_q2">Estou em perigo?</string>
+    <string name="info_a2">A maioria das pessoas (cerca de 80%) se recupera da doença sem a necessidade de tratamento hospitalar. Cerca de 1 em cada 5 pessoas que contraem COVID-19 desenvolvem um estado grave e apresentam dificuldades respiratórias. Idosos e pessoas com condições médicas anteriores, como hipertensão, problemas cardíacos ou pulmonares, diabetes ou câncer, têm maior probabilidade de desenvolver doenças graves. No entanto, qualquer pessoa pode pegar COVID-19 e ficar gravemente doente.</string>
+
+    <!--  Ranking  -->
+    <string name="ranking_title">5 principais em número de casos</string>
+
+    <!--  Stats  -->
+    <string name="stats_country">País: </string>
+    <string name="stats_active_cases">Casos ativos: </string>
+    <string name="stats_critical_cases">Casos críticos: </string>
+    <string name="stats_recovered">Recuperado: </string>
+    <string name="stats_total_cases">Total de casos: </string>
+    <string name="stats_today_cases">Casos hoje: </string>
+    <string name="stats_total_deceases">Total de mortes: </string>
+    <string name="stats_population">População</string>
+    <string name="stats_last_updated">Atualizada: </string>
+
+
+    <!--quiz -->
+
+    <string name="quiz_q1">Tosse seca, é um sintoma de Covid?</string>
+
+
+    <string name="quiz_q2">Qual das alternativas a seguir não é um sintoma de Covid?</string>
+    <string name="quiz_q2_a1">Dor de cabeça</string>
+    <string name="quiz_q2_a2">Congestionamento nasal</string>
+    <string name="quiz_q2_a3">Perda de cabelo</string>
+    <string name="quiz_q2_a4">Perda de paladar e cheiro</string>
+
+    <string name="quiz_q3">Qual porcentagem de pessoas tem um caso grave de Covid?</string>
+    <string name="quiz_q3_a1">20%</string>
+    <string name="quiz_q3_a2">40%</string>
+    <string name="quiz_q3_a3">60%</string>
+    <string name="quiz_q3_a4">80%</string>
+
+    <string name="quiz_q4">Qual das seguintes pessoas tem maior probabilidade de ter um caso grave de Covid?</string>
+    <string name="quiz_q4_a1">Um menino de seis anos</string>
+    <string name="quiz_q4_a2">Um adolescente</string>
+    <string name="quiz_q4_a3">Um aposentado</string>
+    <string name="quiz_q4_a4">Uma pessoa com problemas pulmonares</string>
+
+    <string name="quiz_q5">Qual das seguintes condições não o coloca em risco de contratar a Covid?</string>
+    <string name="quiz_q5_a1">Diabetes</string>
+    <string name="quiz_q5_a2">Epilepsia</string>
+    <string name="quiz_q5_a3">Asma</string>
+
+    <string name="quiz_q6">Se você tiver febre, tosse e dor de cabeça, pode pegar Covid?</string>
+
+
+    <string name="quiz_q7">Se seu braço direito dói, você espirra e se sente cansado, pode ficar com Covid?</string>
+
+    <string name="quiz_q8">Se você estiver com dor de cabeça, pode ficar com Covid?</string>
+
+    <string name="quiz_yes">sim</string>
+    <string name="quiz_no">Não</string>
+
+    <string name="quiz_send">Enviar</string>
+    <string name="quiz_score">Pontuação: %1$d/8 </string>
+
+    <string name="quiz_error">Você deve marcar todas as caixas!</string>
+    <string name="lang_selection_msg">Escolha o idioma desejado:</string>
+
+</resources>

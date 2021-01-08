@@ -16,10 +16,10 @@
 
 
     <!-- Menu strings -->
-    <string name="menu_home">Pagina principal</string>
+    <string name="menu_home">Página principal</string>
     <string name="menu_covid_stats">Estado</string>
     <string name="menu_covid_ranking">Ranking</string>
-    <string name="menu_covid_info">Informacion</string>
+    <string name="menu_covid_info">Información</string>
     <string name="menu_covid_test">Cuestionario</string>
     <string name="menu_scores">Puntuaciones</string>
     <string name="menu_lang">Idioma</string>
@@ -92,7 +92,7 @@
 
     <string name="quiz_q8">Si tiene dolor de cabeza, ¿puede tener Covid?</string>
 
-    <string name="quiz_yes">Si</string>
+    <string name="quiz_yes">Sí</string>
     <string name="quiz_no">No</string>
 
     <string name="quiz_send">Enviar</string>
