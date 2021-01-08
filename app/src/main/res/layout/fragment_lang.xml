@@ -51,8 +51,18 @@
         android:layout_width="238dp"
         android:layout_height="43dp"
         android:layout_x="78dp"
-        android:layout_y="308dp"
+        android:layout_y="363dp"
         android:text="日本人"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/portuguese_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_x="78dp"
+        android:layout_y="308dp"
+        android:text="Português"
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="250dp" />
 
