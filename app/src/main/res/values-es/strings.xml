@@ -43,9 +43,10 @@
     <string name="info_a2">La mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad sin necesidad de tratamiento hospitalario. Aproximadamente 1 de cada 5 personas que contraen COVID-19 desarrollan una afección grave y experimentan dificultades respiratorias. Las personas mayores y aquellas con afecciones médicas previas, como presión arterial alta, problemas cardíacos o pulmonares, diabetes o cáncer, tienen más probabilidades de desarrollar afecciones graves. Sin embargo, cualquier persona puede contraer COVID-19 y enfermarse gravemente.</string>
 
     <!--  Ranking  -->
-    <string name="ranking_title">Top 5 en cantidad de casos</string>
+    <string name="ranking_title">Top 5 en cantidad de casos: </string>
 
     <!--  Stats  -->
+    <string name="stats_heading">Estadísticas en tiempo real acerca del Covid-19: </string>
     <string name="stats_country">País: </string>
     <string name="stats_active_cases">Casos activos: </string>
     <string name="stats_critical_cases">Casos críticos: </string>

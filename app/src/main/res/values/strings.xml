@@ -42,9 +42,10 @@
     <string name="info_a2">Most people (about 80%) recover from the disease without the need for hospital treatment. About 1 in 5 people who contract COVID-19 develop a severe condition and experience breathing difficulties. Older people and those with previous medical conditions such as high blood pressure, heart or lung problems, diabetes, or cancer are more likely to develop severe conditions. However, anyone can get COVID-19 and become seriously ill.</string>
 
     <!--  Ranking  -->
-    <string name="ranking_title">Top 5 in Cases Amount</string>
+    <string name="ranking_title">Top 5 in Cases Amount: </string>
 
     <!--  Stats  -->
+    <string name="stats_heading">Real-time stats about Covid-19: </string>
     <string name="stats_country">Country: </string>
     <string name="stats_active_cases">Active cases: </string>
     <string name="stats_critical_cases">Critical cases: </string>
