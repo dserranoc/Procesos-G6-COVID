@@ -46,6 +46,7 @@
     <string name="ranking_title">Top 5 in Fällen Menge</string>
 
     <!--  Stats  -->
+    <string name="stats_heading">Echtzeitstatistiken zu Covid-19: </string>
     <string name="stats_country">Land: </string>
     <string name="stats_active_cases">Aktuelle Fälle: </string>
     <string name="stats_critical_cases">Kritische Fälle: </string>
