@@ -1,81 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ranking.RankingFragment"
-    android:orientation="vertical">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.ranking.RankingFragment">
 
-    <Button
-        android:id="@+id/english_lang"
-        android:layout_width="240dp"
-        android:layout_height="43dp"
-        android:layout_x="78dp"
-        android:layout_y="143dp"
-        android:text="English"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="140dp" />
+    <TextView
+        android:id="@+id/lang_sel"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/lang_selection_msg" />
 
     <Button
         android:id="@+id/spanish_lang"
         android:layout_width="238dp"
         android:layout_height="43dp"
-        android:layout_x="78dp"
-        android:layout_y="88dp"
-        android:text="Español"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="83dp" />
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Español" />
 
     <Button
         android:id="@+id/french_lang"
         android:layout_width="238dp"
         android:layout_height="43dp"
-        android:layout_x="78dp"
-        android:layout_y="198dp"
-        android:text="Français"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="195dp" />
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Français" />
 
     <Button
         android:id="@+id/deustch_lang"
         android:layout_width="238dp"
         android:layout_height="43dp"
-        android:layout_x="78dp"
-        android:layout_y="253dp"
-        android:text="Deustch"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="250dp" />
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Deustch" />
 
     <Button
         android:id="@+id/japanese_lang"
         android:layout_width="238dp"
         android:layout_height="43dp"
-        android:layout_x="78dp"
-        android:layout_y="363dp"
-        android:text="日本人"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="250dp" />
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="日本人" />
 
     <Button
         android:id="@+id/portuguese_lang"
         android:layout_width="238dp"
         android:layout_height="43dp"
-        android:layout_x="78dp"
-        android:layout_y="308dp"
-        android:text="Português"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="250dp" />
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Português" />
 
-    <TextView
-        android:id="@+id/lang_sel"
-        android:layout_width="288dp"
-        android:layout_height="27dp"
-        android:layout_x="79dp"
-        android:layout_y="49dp"
-        android:text="@string/lang_selection_msg"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="40dp" />
+    <Button
+        android:id="@+id/english_lang"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:text="English" />
 
 
-</AbsoluteLayout>
+</LinearLayout>

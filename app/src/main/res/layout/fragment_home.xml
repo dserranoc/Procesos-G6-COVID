@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
+
 
     <TextView
         android:id="@+id/heading_1"
@@ -12,25 +14,24 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:text="@string/home_h1"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_1"
-        android:layout_width="306dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:text="@string/home_text1"
+        android:justificationMode="inter_word"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/heading_2"
@@ -38,24 +39,25 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="5dp"
         android:text="@string/home_h2"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_2"
-        android:layout_width="311dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:justificationMode="inter_word"
         android:text="@string/home_text2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/heading_3"
@@ -63,24 +65,25 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="5dp"
         android:text="@string/home_h3"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_3"
-        android:layout_width="307dp"
-        android:layout_height="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:justificationMode="inter_word"
         android:text="@string/home_text3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/heading_4"
@@ -88,24 +91,25 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="5dp"
         android:text="@string/home_h4"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_4"
-        android:layout_width="306dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="356dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:justificationMode="inter_word"
         android:text="@string/home_text4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/heading_5"
@@ -113,23 +117,24 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="436dp"
+        android:layout_marginTop="5dp"
         android:text="@string/home_h5"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_5"
-        android:layout_width="308dp"
+        android:layout_width="wrap_content"
         android:layout_height="81dp"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:justificationMode="inter_word"
         android:text="@string/home_text5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="16sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

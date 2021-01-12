@@ -16,9 +16,9 @@
             android:id="@+id/quiz_q1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="24dp"
             android:text="@string/quiz_q1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.121"
@@ -29,8 +29,9 @@
             android:id="@+id/quiz_q1_rg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
 
             <RadioButton
@@ -50,8 +51,9 @@
             android:id="@+id/quiz_q2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.172"
@@ -62,8 +64,10 @@
             android:id="@+id/quiz_q2_rg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp">
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/quiz_q2_a1"
@@ -103,8 +107,9 @@
             android:id="@+id/quiz_q4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.41"
@@ -116,8 +121,9 @@
             android:id="@+id/quiz_q4_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp">
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp">
 
             <RadioButton
                 android:id="@+id/quiz_q4_a1"
@@ -157,8 +163,9 @@
             android:id="@+id/quiz_q3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.313"
@@ -169,8 +176,9 @@
             android:id="@+id/quiz_q3_rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp">
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp">
 
             <RadioButton
                 android:id="@+id/quiz_q3_a1"
@@ -209,8 +217,9 @@
             android:id="@+id/quiz_q5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -220,8 +229,9 @@
             android:id="@+id/quiz_q5_rg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp">
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp">
 
             <RadioButton
                 android:id="@+id/quiz_q5_a1"
@@ -253,8 +263,9 @@
             android:id="@+id/quiz_q7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.028"
@@ -265,8 +276,9 @@
             android:id="@+id/quiz_q7_rg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
 
             <RadioButton
@@ -286,8 +298,9 @@
             android:id="@+id/quiz_q6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.207"
@@ -298,8 +311,9 @@
             android:id="@+id/quiz_q6_rg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
 
             <RadioButton
@@ -319,8 +333,9 @@
             android:id="@+id/quiz_q8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:text="@string/quiz_q8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.349"
@@ -331,8 +346,9 @@
             android:id="@+id/quiz_q8_rg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
 
             <RadioButton
@@ -362,6 +378,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
             tools:text="@string/quiz_score" />
 
 
