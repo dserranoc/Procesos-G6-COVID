@@ -1,0 +1,104 @@
+<resources>
+<!--    App name    -->
+<string name="app_name">Covid App</string>
+
+<string name="title_activity_home">Pagina principal</string>
+<string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+<string name="nav_header_title">G-Six</string>
+<string name="nav_header_subtitle">Procesos Software - URJC</string>
+<string name="nav_header_desc">Navigation header</string>
+<string name="action_settings">Ajustes</string>
+
+<!--  Reusables  -->
+
+<string name="loading">Loading...</string>
+
+
+<!-- Menu strings -->
+<string name="menu_home">ホームページ</string>
+<string name="menu_covid_stats">状態</string>
+<string name="menu_covid_ranking">ランキング</string>
+<string name="menu_covid_info">情報</string>
+<string name="menu_covid_test">アンケート</string>
+<string name="menu_scores">スコア</string>
+<string name="menu_lang">言語</string>
+
+<!--  Home  -->
+<string name="home_h1">アプリに関する一般情報</string>
+<string name="home_text1">ユーザーがCovid-19の情報をリアルタイムで表示できるようにします</string>
+<string name="home_h2">リアルタイムデータ</string>
+<string name="home_text2">アクセスするには、サイドメニューを表示し、CovidStatisticsをクリックします。 これは、私たちがいる国のcovidの症例数、死亡数、累積発生率、およびその他のデータを含む情報です。</string>
+<string name="home_h3">症例数が多い国のランキング</string>
+<string name="home_text3">Covid-19の症例が世界で最も多い国のランキングを表示するには、サイドメニューにあるCovidランキングオプションにアクセスする必要があります。</string>
+<string name="home_h4">Covid-19についての事実</string>
+<string name="home_text4">ドロップダウンメニューで、Covid Infoオプションをクリックして、Covid-19の症状とそれが自分にもたらす可能性のある危険性に関する情報を取得できます。</string>
+<string name="home_h5">アンケート</string>
+<string name="home_text5">この機能により、Covid-19と予防および衛生方法に関する知識をテストするテストを実行できるようになります。</string>
+
+<!--  Info  -->
+<string name="info_q1">COVID-19の症状は何ですか？</string>
+<string name="info_a1">COVID-19の最も一般的な症状は、発熱、乾いた咳、および疲労です。 一部の患者に影響を与える他のあまり一般的ではない症状には、痛みや痛み、鼻のうっ血、頭痛、結膜炎、喉の痛み、下痢、味や匂いの喪失、皮膚の発疹や指や指の変色などがあります。 フィート。 これらの症状は通常軽度で、徐々に始まります。 感染した人の中には、非常に軽度の症状しかない人もいます。</string>
+<string name="info_q2">私は危険にさらされていますか？</string>
+<string name="info_a2">ほとんどの人（約80％）は、病院での治療を必要とせずに病気から回復します。 COVID-19に感染した人の約5人に1人が深刻な状態を発症し、呼吸困難を経験します。 高齢者や、高血圧、心臓や肺の問題、糖尿病、癌などの以前の病状のある人は、深刻な状態を発症する可能性が高くなります。 ただし、誰でもCOVID-19を取得して、重病になる可能性があります。</string>
+
+<!--  Ranking  -->
+<string name="ranking_title">症例数トップ5</string>
+
+<!--  Stats  -->
+<string name="stats_country">国： </string>
+<string name="stats_active_cases">現在の感染者（数： </string>
+<string name="stats_critical_cases">重大なケース： </string>
+<string name="stats_recovered">回復： </string>
+<string name="stats_total_cases">総件数： </string>
+<string name="stats_today_cases">今日の事例： </string>
+<string name="stats_total_deceases">総死亡者数： </string>
+<string name="stats_population">人口</string>
+<string name="stats_last_updated">更新しました： </string>
+
+
+<!--quiz -->
+
+<string name="quiz_q1">乾いた咳、それはコビッドの症状ですか？</string>
+
+
+<string name="quiz_q2">次のうち、Covidの症状ではないものはどれですか？</string>
+<string name="quiz_q2_a1">頭痛</string>
+<string name="quiz_q2_a2">鼻詰まり</string>
+<string name="quiz_q2_a3">脱毛</string>
+<string name="quiz_q2_a4">味と匂いの喪失</string>
+
+<string name="quiz_q3">何パーセントの人がCovidの重症例を持っていますか？</string>
+<string name="quiz_q3_a1">20%</string>
+<string name="quiz_q3_a2">40%</string>
+<string name="quiz_q3_a3">60%</string>
+<string name="quiz_q3_a4">80%</string>
+
+<string name="quiz_q4">次の人々のうち、Covidの重症例を持っている可能性が最も高いのはどれですか？</string>
+<string name="quiz_q4_a1">6歳の男の子</string>
+<string name="quiz_q4_a2">ティーンエイジャー</string>
+<string name="quiz_q4_a3">退職者</string>
+<string name="quiz_q4_a4">肺に問題のある人</string>
+
+<string name="quiz_q5">次の条件のうち、Covidに契約するリスクを負わないものはどれですか？</string>
+<string name="quiz_q5_a1">糖尿病</string>
+<string name="quiz_q5_a2">てんかん</string>
+<string name="quiz_q5_a3">喘息</string>
+
+<string name="quiz_q6">熱、咳、頭痛がある場合、Covidを使用できますか？</string>
+
+
+<string name="quiz_q7">右腕が痛くて、くしゃくしゃになって、疲れたと感じたら、Covidをもらえますか？</string>
+
+<string name="quiz_q8">あなたが頭痛を持っているならば、あなたはコビッドを持つことができますか？</string>
+
+<string name="quiz_yes">はい</string>
+<string name="quiz_no">番号</string>
+
+<string name="quiz_send">送信</string>
+<string name="quiz_score">パンクチュエーション: %1$d/8 </string>
+
+<string name="quiz_error">すべてのチェックボックスをオンにする必要があります。</string>
+<string name="lang_selection_msg">目的の言語を選択します。</string>
+
+</resources>
