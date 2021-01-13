@@ -22,7 +22,6 @@
         android:fitsSystemWindows="true"
         app:itemBackground="@drawable/rounded_side_nav"
         app:headerLayout="@layout/nav_header_main"
-
         app:menu="@menu/activity_main_drawer" >
 
     </com.google.android.material.navigation.NavigationView>

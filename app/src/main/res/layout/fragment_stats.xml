@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
-    tools:context=".ui.test.TestFragment"
+    tools:context=".ui.stats.StatsFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5F1FF"

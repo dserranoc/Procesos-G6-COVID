@@ -44,10 +44,4 @@
         android:name="com.gsix.covid.ui.scores.ScoresFragment"
         android:label="@string/menu_scores"
         tools:layout="@layout/fragment_scores" />
-
-    <fragment
-        android:id="@+id/nav_covid_des"
-        android:name="com.gsix.covid.ui.test.TestFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_test" />
 </navigation>
