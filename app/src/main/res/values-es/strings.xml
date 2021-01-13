@@ -29,7 +29,7 @@
     <string name="home_text1">CovidInfo permite al usuario ver en tiempo real la información sobre el Covid-19</string>
     <string name="home_h2">Datos en tiempo real</string>
     <string name="home_text2">Para acceder, simplemente mostraremos el menú lateral y daremos clic en Estadisticas Covid. Aquí esta la información con el número de casos, muertes, incidencia acumulada y otros datos del covid en el país que nos encontramos.</string>
-    <string name="home_h3">Ranking de paises con más casos</string>
+    <string name="home_h3">Ranking de países con más casos</string>
     <string name="home_text3">Para ver el ranking de los países con más casos de Covid-19 a nivel mundial, debes acceder a la opción Covid Ranking ubicada en el menú lateral.</string>
     <string name="home_h4">Datos sobre Covid-19</string>
     <string name="home_text4">En el menú desplegable podemos hacer clic en la opción Covid Info para obtener información sobre los síntomas del Covid-19 y sobre el peligro que puede suponer para uno mismo.</string>
