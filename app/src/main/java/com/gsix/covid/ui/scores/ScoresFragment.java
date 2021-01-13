@@ -16,6 +16,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.gsix.covid.R;
 import com.gsix.covid.infrastructure.cases.get_questions.QuizSQLiteHelper;
@@ -30,6 +32,10 @@ public class ScoresFragment extends Fragment {
 
 
         View root = inflater.inflate(R.layout.scores_fragment, container, false);
+        NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
+        TextView toolbarTitle = getActivity().findViewById(R.id.toolbar_title);
+
+        toolbarTitle.setText(navController.getCurrentDestination().getLabel());
         return root;
     }
 

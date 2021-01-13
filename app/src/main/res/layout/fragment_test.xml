@@ -79,18 +79,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:text="@string/stats_country"
-                    android:textStyle="bold"
                     android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/country"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -101,7 +99,6 @@
                     android:id="@+id/activeCasesLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_active_cases"
                     android:textSize="18sp" />
 
@@ -109,11 +106,10 @@
                     android:id="@+id/activeCases"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -124,7 +120,6 @@
                     android:id="@+id/criticalCasesLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_critical_cases"
                     android:textSize="18sp" />
 
@@ -132,11 +127,10 @@
                     android:id="@+id/criticalCases"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -147,7 +141,6 @@
                     android:id="@+id/recoveredLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_recovered"
                     android:textSize="18sp" />
 
@@ -155,11 +148,10 @@
                     android:id="@+id/recovered"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -170,7 +162,6 @@
                     android:id="@+id/totalCasesLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_total_cases"
                     android:textSize="18sp" />
 
@@ -178,11 +169,10 @@
                     android:id="@+id/totalCases"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -193,7 +183,6 @@
                     android:id="@+id/todayCasesLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_today_cases"
                     android:textSize="18sp" />
 
@@ -201,11 +190,10 @@
                     android:id="@+id/todayCases"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -216,7 +204,6 @@
                     android:id="@+id/deceasesLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_total_deceases"
                     android:textSize="18sp" />
 
@@ -224,11 +211,10 @@
                     android:id="@+id/deceases"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -239,7 +225,6 @@
                     android:id="@+id/populationLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_population"
                     android:textSize="18sp" />
 
@@ -247,11 +232,10 @@
                     android:id="@+id/population"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -263,7 +247,6 @@
                     android:id="@+id/lastUpdatedLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:textStyle="bold"
                     android:text="@string/stats_last_updated"
                     android:textSize="18sp" />
 
@@ -271,11 +254,10 @@
                     android:id="@+id/lastUpdated"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:text="@string/loading"
-                    android:textSize="18sp"
-                    android:layout_gravity="center"/>
+                    android:textSize="18sp" />
             </TableRow>
         </TableLayout>
 

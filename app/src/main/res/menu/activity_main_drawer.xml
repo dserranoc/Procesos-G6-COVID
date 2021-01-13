@@ -27,13 +27,18 @@
             android:title="@string/menu_covid_test" />
 
         <item
-            android:id="@+id/nav_scores"
+            android:id="@+id/nav_covid_scores"
             android:icon="@drawable/ic_playlist_add_check"
             android:title="@string/menu_scores" />
 
         <item
-            android:id="@+id/nav_lang"
+            android:id="@+id/nav_covid_lang"
             android:icon="@drawable/ic_public"
             android:title="@string/menu_lang" />
+
+        <item
+            android:id="@+id/nav_covid_des"
+            android:icon="@drawable/ic_public"
+            android:title="Página Principal" />
     </group>
 </menu>
