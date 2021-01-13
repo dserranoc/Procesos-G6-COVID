@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    App name    -->
+    <string name="app_name">Covid App</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">G-Six</string>
+    <string name="nav_header_subtitle">Procesos Software - URJC</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  Reusables  -->
+
+    <string name="loading">Loading...</string>
+
+
+    <!-- Menu strings -->
+    <string name="menu_home">Start</string>
+    <string name="menu_covid_stats">Statistiken</string>
+    <string name="menu_covid_ranking">Rangfolge</string>
+    <string name="menu_covid_info">Die Info</string>
+    <string name="menu_covid_test">Quiz</string>
+    <string name="menu_lang">Sprache</string>
+
+    <!--  Home  -->
+    <string name="home_h1">Allgemeine Informationen zu CovidInfo</string>
+    <string name="home_text1">Mit CovidInfo kann der Benutzer Echtzeitdaten von Covid-19 anzeigen.</string>
+    <string name="home_h2">Echtzeitdaten</string>
+    <string name="home_text2">Um auf die Funktionalität zuzugreifen, zeigen wir einfach das Seitenmenü an und klicken auf die Option Covid Stats. Hier finden Sie Informationen zur Anzahl der Fälle, Todesfälle, akkumulierten Inzidenzen und andere Daten über die Covid in dem Land, in dem wir uns befinden.</string>
+    <string name="home_h3">Rangliste der Länder mit mehr Fällen</string>
+    <string name="home_text3">Um das Ranking der Länder mit den meisten Fällen von Covid-19 weltweit anzuzeigen, müssen Sie auf die Option Covid Ranking im Seitenmenü zugreifen.</string>
+    <string name="home_h4">Infos zu Covid-19</string>
+    <string name="home_text4">Im Dropdown-Menü können wir auf die Option Covid Info klicken, um Informationen über die Symptome von Covid-19 und über die Gefahr zu erhalten, die es für sich selbst darstellen kann.</string>
+    <string name="home_h5">Quiz</string>
+    <string name="home_text5">Mit dieser Funktionalität können wir Tests durchführen, die unser Wissen über Covid-19 sowie Präventions- und Hygienemethoden testen.</string>
+
+    <!--  Info  -->
+    <string name="info_q1">Was sind die Symptome von COVID-19?</string>
+    <string name="info_a1">Die häufigsten Symptome von COVID-19 sind Fieber, trockener Husten und Müdigkeit. Andere weniger häufige Symptome, die einige Patienten betreffen, sind Schmerzen, verstopfte Nase, Kopfschmerzen, Bindehautentzündung, Halsschmerzen, Durchfall, Geschmacks- oder Geruchsverlust sowie Hautausschläge oder Farbveränderungen. an den Fingern oder Zehen. Diese Symptome sind normalerweise mild und beginnen allmählich. Einige der Infizierten haben nur sehr milde Symptome.</string>
+    <string name="info_q2">Bin ich in Gefahr?</string>
+    <string name="info_a2">Die meisten Menschen (etwa 80%) erholen sich von der Krankheit, ohne dass eine Krankenhausbehandlung erforderlich ist. Ungefähr 1 von 5 Personen, die sich mit COVID-19 infizieren, entwickeln eine schwere Erkrankung und haben Atembeschwerden. Ältere Menschen und Menschen mit früheren Erkrankungen wie Bluthochdruck, Herz- oder Lungenproblemen, Diabetes oder Krebs entwickeln mit größerer Wahrscheinlichkeit schwere Erkrankungen. Jeder kann jedoch COVID-19 bekommen und schwer krank werden.</string>
+
+    <!--  Ranking  -->
+    <string name="ranking_title">Top 5 in Fällen Menge</string>
+
+    <!--  Stats  -->
+    <string name="stats_heading">Echtzeitstatistiken zu Covid-19: </string>
+    <string name="stats_country">Land: </string>
+    <string name="stats_active_cases">Aktuelle Fälle: </string>
+    <string name="stats_critical_cases">Kritische Fälle: </string>
+    <string name="stats_recovered">Wiederhergestellt: </string>
+    <string name="stats_total_cases">Gesamtzahl der Fälle: </string>
+    <string name="stats_today_cases">Heute Fälle: </string>
+    <string name="stats_total_deceases">Insgesamt verstorben: </string>
+    <string name="stats_population">Population:</string>
+    <string name="stats_last_updated">Zuletzt aktualisiert: </string>
+
+
+    <!--quiz -->
+
+    <string name="quiz_q1">Trockener Husten, ist es ein Symptom von Covid?</string>
+
+
+    <string name="quiz_q2">Welches der folgenden Symptome ist kein Symptom von Covid?</string>
+    <string name="quiz_q2_a1">Kopfschmerzen</string>
+    <string name="quiz_q2_a2">Verstopfte Nase</string>
+    <string name="quiz_q2_a3">Haarausfall</string>
+    <string name="quiz_q2_a4">Geschmacks- und Geruchsverlust</string>
+
+    <string name="quiz_q3">Wie viel Prozent der Menschen haben einen schweren Fall von Covid?</string>
+    <string name="quiz_q3_a1">20%</string>
+    <string name="quiz_q3_a2">40%</string>
+    <string name="quiz_q3_a3">60%</string>
+    <string name="quiz_q3_a4">80%</string>
+
+    <string name="quiz_q4">Welche der folgenden Personen hat am wahrscheinlichsten einen schweren Fall von Covid?</string>
+    <string name="quiz_q4_a1">Ein sechsjähriges Kind</string>
+    <string name="quiz_q4_a2">Ein Teenager</string>
+    <string name="quiz_q4_a3">Ein Rentner</string>
+    <string name="quiz_q4_a4">Eine Person mit Lungenproblemen</string>
+
+    <string name="quiz_q5">Welche der folgenden Pathologien gefährdet Sie nicht für Covid?</string>
+    <string name="quiz_q5_a1">Diabetes</string>
+    <string name="quiz_q5_a2">Epilepsie</string>
+    <string name="quiz_q5_a3">Asthma</string>
+
+    <string name="quiz_q6">Wenn Sie Fieber, Husten und Kopfschmerzen haben, können Sie Covid haben?</string>
+
+
+    <string name="quiz_q7">Wenn Ihr rechter Arm schmerzt, Sie niesen und sich müde fühlen, können Sie Covid haben?</string>
+
+    <string name="quiz_q8">Wenn Sie Kopfschmerzen haben, können Sie Covid haben?</string>
+
+    <string name="quiz_yes">Ja</string>
+    <string name="quiz_no">Nein</string>
+
+    <string name="quiz_send">Einreichen</string>
+    <string name="quiz_score">Ergebnis: %1$d/8 </string>
+
+    <string name="quiz_error">Sie müssen alle Kästchen ankreuzen!</string>
+
+    <string name="lang_selection_msg">Bitte wählen Sie die gewünschte Sprache:</string>
+    <string name="menu_scores">Scores</string>
+</resources>

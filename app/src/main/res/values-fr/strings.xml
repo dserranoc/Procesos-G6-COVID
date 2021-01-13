@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    App name    -->
+    <string name="app_name">Covid App</string>
+
+    <string name="title_activity_home">Page principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">G-Six</string>
+    <string name="nav_header_subtitle">Procesos Software - URJC</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Réglages</string>
+
+    <!--  Reusables  -->
+
+    <string name="loading">Loading...</string>
+
+
+    <!-- Menu strings -->
+    <string name="menu_home">Page principal</string>
+    <string name="menu_covid_stats">Statistiques</string>
+    <string name="menu_covid_ranking">Ranking</string>
+    <string name="menu_covid_info">Information</string>
+    <string name="menu_covid_test">Questionnaire</string>
+    <string name="menu_lang">Langage</string>
+
+    <!--  Home  -->
+    <string name="home_h1">Informations générales sur CovidInfo</string>
+    <string name="home_text1">CovidInfor permet á l\'utilisateur de voir en temps réel les informations sur le Covid-19</string>
+    <string name="home_h2">Données en temps réel</string>
+    <string name="home_text2">Pour y accéder, nous allons simplement afficher le menu latéral et cliquer sur Covid Statistics. Voici les informations avec le nombre de cas, de décès, d\'incidence cumulée et d\'autres données du covid dans le pays où nous sommes</string>
+    <string name="home_h3">Classement des pays avec le plus de cas</string>
+    <string name="home_text3">Pour voir le classement des pays avec le plus de cas de Covid-19 dans le monde, vous devez accéder à l\'option Classement Covid située dans le menu latéral.</string>
+    <string name="home_h4">Faits sur Covid-19</string>
+    <string name="home_text4">Dans le menu déroulant, nous pouvons cliquer sur l\'option Covid Info pour obtenir des informations sur les symptômes de Covid-19 et sur le danger qu\'il peut présenter pour soi-même.</string>
+    <string name="home_h5">Questionnaires</string>
+    <string name="home_text5">Avec cette fonctionnalité, nous pourrons réaliser les tests qui mettront à l\'épreuve nos connaissances sur Covid-19 et les méthodes de prévention et d\'hygiène.</string>
+
+    <!--  Info  -->
+    <string name="info_q1">Quels sont les symptômes du COVID-19?</string>
+    <string name="info_a1">Les symptômes les plus courants du COVID-19 sont la fièvre, la toux sèche et la fatigue. D\'autres symptômes moins courants qui affectent certains patients comprennent les courbatures et les douleurs, la congestion nasale, les maux de tête, la conjonctivite, les maux de gorge, la diarrhée, la perte de goût ou d\'odeur et les éruptions cutanées ou la décoloration des doigts ou des doigts. les pieds. Ces symptômes sont généralement légers et commencent progressivement. Certaines des personnes infectées ne présentent que des symptômes très légers.</string>
+    <string name="info_q2">Je suis en danger?</string>
+    <string name="info_a2">La plupart des gens (environ 80%) se rétablissent de la maladie sans avoir besoin de soins hospitaliers. Environ 1 personne sur 5 qui contracte le COVID-19 développe une maladie grave et éprouve des difficultés respiratoires. Les personnes âgées et celles ayant des problèmes de santé antérieurs, tels que l\'hypertension artérielle, des problèmes cardiaques ou pulmonaires, le diabète ou le cancer, sont plus susceptibles de développer des maladies graves. Cependant, n\'importe qui peut contracter le COVID-19 et devenir gravement malade.</string>
+
+    <!--  Ranking  -->
+    <string name="ranking_title">Top 5 en nombre de cas</string>
+
+    <!--  Stats  -->
+    <string name="stats_heading">Statistiques en temps réel sur Covid-19: </string>
+    <string name="stats_country">Pays: </string>
+    <string name="stats_active_cases">Cas actifs: </string>
+    <string name="stats_critical_cases">Cas critiques: </string>
+    <string name="stats_recovered">Rétabli: </string>
+    <string name="stats_total_cases">Nombre total de cas: </string>
+    <string name="stats_today_cases">Cas aujourd\'hui: </string>
+    <string name="stats_total_deceases">Nombre total de décès: </string>
+    <string name="stats_population">Ville</string>
+    <string name="stats_last_updated">Mis à jour: </string>
+
+
+    <!--quiz -->
+
+    <string name="quiz_q1">Toux sèche, est-ce un symptôme de Covid?</string>
+
+
+    <string name="quiz_q2">Lequel des éléments suivants n\'est pas un symptôme de Covid?</string>
+    <string name="quiz_q2_a1">Mal de tête</string>
+    <string name="quiz_q2_a2">Congestion nasale</string>
+    <string name="quiz_q2_a3">Perte de cheveux</string>
+    <string name="quiz_q2_a4">Perte de goût et d\'odeur</string>
+
+    <string name="quiz_q3">Quel pourcentage de personnes ont un cas grave de Covid?</string>
+    <string name="quiz_q3_a1">20%</string>
+    <string name="quiz_q3_a2">40%</string>
+    <string name="quiz_q3_a3">60%</string>
+    <string name="quiz_q3_a4">80%</string>
+
+    <string name="quiz_q4">Laquelle des personnes suivantes est la plus susceptible d\'avoir un cas grave de Covid?</string>
+    <string name="quiz_q4_a1">Un garçon de six ans</string>
+    <string name="quiz_q4_a2">Un adolescent</string>
+    <string name="quiz_q4_a3">Un retraité</string>
+    <string name="quiz_q4_a4">Une personne ayant des problèmes pulmonaires</string>
+
+    <string name="quiz_q5">Laquelle des conditions suivantes ne vous expose pas à un risque de contracter Covid?</string>
+    <string name="quiz_q5_a1">Diabète</string>
+    <string name="quiz_q5_a2">Épilepsie</string>
+    <string name="quiz_q5_a3">Asthme</string>
+
+    <string name="quiz_q6">Si vous avez de la fièvre, de la toux et des maux de tête, pouvez-vous avoir Covid?</string>
+
+
+    <string name="quiz_q7">Si votre bras droit vous fait mal, que vous éternuez et que vous vous sentez fatigué, pouvez-vous avoir Covid?</string>
+
+    <string name="quiz_q8">Si vous avez mal à la tête, pouvez-vous avoir Covid?</string>
+
+    <string name="quiz_yes">Oui</string>
+    <string name="quiz_no">Non</string>
+
+    <string name="quiz_send">Envoyer</string>
+    <string name="quiz_score">Ponctuation: %1$d/8 </string>
+
+    <string name="quiz_error">Vous devez cocher toutes les cases!</string>
+
+    <string name="lang_selection_msg">Choisissez la langue souhaitée:</string>
+    <string name="menu_scores">Les scores</string>
+</resources>

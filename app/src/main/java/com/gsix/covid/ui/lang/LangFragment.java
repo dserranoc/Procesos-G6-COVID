@@ -48,6 +48,42 @@ public class LangFragment extends Fragment {
                 }
             });
         }
+        if(true) {
+            final Button button = this.getActivity().findViewById(R.id.french_lang);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Hawk.put("lang", "fr");
+                    restartActivity(getActivity());
+                }
+            });
+        }
+        if(true) {
+            final Button button = this.getActivity().findViewById(R.id.deustch_lang);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Hawk.put("lang", "de");
+                    restartActivity(getActivity());
+                }
+            });
+        }
+        if(true) {
+            final Button button = this.getActivity().findViewById(R.id.japanese_lang);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Hawk.put("lang", "jp");
+                    restartActivity(getActivity());
+                }
+            });
+        }
+        if(true) {
+            final Button button = this.getActivity().findViewById(R.id.portuguese_lang);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Hawk.put("lang", "pg");
+                    restartActivity(getActivity());
+                }
+            });
+        }
     }
 
 

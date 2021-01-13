@@ -23,6 +23,38 @@
         android:text="Español" />
 
     <Button
+        android:id="@+id/french_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Français" />
+
+    <Button
+        android:id="@+id/deustch_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Deustch" />
+
+    <Button
+        android:id="@+id/japanese_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="日本人" />
+
+    <Button
+        android:id="@+id/portuguese_lang"
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Português" />
+
+    <Button
         android:id="@+id/english_lang"
         android:layout_width="240dp"
         android:layout_height="43dp"
