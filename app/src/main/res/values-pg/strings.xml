@@ -101,5 +101,6 @@
 
     <string name="quiz_error">Você deve marcar todas as caixas!</string>
     <string name="lang_selection_msg">Escolha o idioma desejado:</string>
-
+    <string name="btn_go_quiz">Vá para o questionário</string>
+    <string name="no_scores">Para que as pontuações sejam exibidas, você deve responder ao questionário pelo menos uma vez.</string>
 </resources>

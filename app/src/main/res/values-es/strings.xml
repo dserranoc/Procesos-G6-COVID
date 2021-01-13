@@ -101,5 +101,6 @@
 
     <string name="quiz_error">¡Debes marcar todas las casillas!</string>
     <string name="lang_selection_msg">Elija el idioma deseado:</string>
-
+    <string name="btn_go_quiz">Ir al quiz</string>
+    <string name="no_scores">Para que se muestren las puntuaciones, al menos debes responder una vez al quiz.</string>
 </resources>

@@ -102,5 +102,7 @@
 
     <string name="lang_selection_msg">Please choose the desired language:</string>
     <string name="menu_scores">Scores</string>
+    <string name="btn_go_quiz">Go to quiz</string>
+    <string name="no_scores">For scores to be displayed, you must answer the quiz at least once.</string>
 
 </resources>

@@ -103,4 +103,6 @@
 
     <string name="lang_selection_msg">Choisissez la langue souhaitée:</string>
     <string name="menu_scores">Les scores</string>
+    <string name="btn_go_quiz">Accéder au quiz</string>
+    <string name="no_scores">Pour que les scores soient affichés, vous devez répondre au quiz au moins une fois.</string>
 </resources>
