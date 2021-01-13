@@ -65,7 +65,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.121"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="53dp" />
+                tools:layout_editor_absoluteY="53dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
 
             <RadioGroup
                 android:id="@+id/quiz_q1_rg"
@@ -102,7 +105,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.172"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="144dp" />
+                tools:layout_editor_absoluteY="144dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <RadioGroup
                 android:id="@+id/quiz_q2_rg"
@@ -160,7 +165,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.41"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="366dp" />
+                tools:layout_editor_absoluteY="366dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
 
             <RadioGroup
@@ -218,7 +225,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.313"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="255dp" />
+                tools:layout_editor_absoluteY="255dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <RadioGroup
                 android:id="@+id/quiz_q3_rg"
@@ -273,7 +282,9 @@
                 android:text="@string/quiz_q5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="542dp" />
+                tools:layout_editor_absoluteY="542dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <RadioGroup
                 android:id="@+id/quiz_q5_rg"
@@ -322,7 +333,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.028"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="731dp" />
+                tools:layout_editor_absoluteY="731dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <RadioGroup
                 android:id="@+id/quiz_q7_rg"
@@ -359,7 +372,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.207"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="646dp" />
+                tools:layout_editor_absoluteY="646dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <RadioGroup
                 android:id="@+id/quiz_q6_rg"
@@ -396,7 +411,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.349"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="822dp" />
+                tools:layout_editor_absoluteY="822dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <RadioGroup
                 android:id="@+id/quiz_q8_rg"
@@ -435,7 +452,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="28dp"
-                tools:text="@string/quiz_score" />
+                tools:text="@string/quiz_score"
+                android:textStyle="bold"
+                />
 
         </LinearLayout>
 

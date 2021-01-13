@@ -103,5 +103,6 @@
     <string name="lang_selection_msg">目的の言語を選択します。</string>
     <string name="btn_go_quiz">クイズに移動</string>
     <string name="no_scores">スコアを表示するには、クイズに少なくとも1回回答する必要があります。</string>
+    <string name="scores_text">クイズの結果は次のとおりです。</string>
 
 </resources>

@@ -104,5 +104,6 @@
     <string name="menu_scores">Scores</string>
     <string name="btn_go_quiz">Go to quiz</string>
     <string name="no_scores">For scores to be displayed, you must answer the quiz at least once.</string>
+    <string name="scores_text">These are your quiz results:</string>
 
 </resources>

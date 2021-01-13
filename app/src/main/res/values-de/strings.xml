@@ -105,4 +105,5 @@
     <string name="menu_scores">Scores</string>
     <string name="btn_go_quiz">Gehen Sie zum Quiz</string>
     <string name="no_scores">Damit Partituren angezeigt werden, müssen Sie das Quiz mindestens einmal beantworten.</string>
+    <string name="scores_text">Dies sind Ihre Quizergebnisse:</string>
 </resources>

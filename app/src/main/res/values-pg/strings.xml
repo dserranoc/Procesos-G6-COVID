@@ -103,4 +103,5 @@
     <string name="lang_selection_msg">Escolha o idioma desejado:</string>
     <string name="btn_go_quiz">Vá para o questionário</string>
     <string name="no_scores">Para que as pontuações sejam exibidas, você deve responder ao questionário pelo menos uma vez.</string>
+    <string name="scores_text">Estes são os resultados do seu questionário:</string>
 </resources>
