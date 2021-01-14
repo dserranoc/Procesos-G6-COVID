@@ -44,11 +44,11 @@
     <string name="info_a2">La mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad sin necesidad de tratamiento hospitalario. Aproximadamente 1 de cada 5 personas que contraen COVID-19 desarrollan una afección grave y experimentan dificultades respiratorias. Las personas mayores y aquellas con afecciones médicas previas, como presión arterial alta, problemas cardíacos o pulmonares, diabetes o cáncer, tienen más probabilidades de desarrollar afecciones graves. Sin embargo, cualquier persona puede contraer COVID-19 y enfermarse gravemente.</string>
 
     <!-- Children -->
-    <string name="children_1">Bienvenid@ aqui aprenderemos juntos que tenemos que hacer para estar seguros ¡Acompañame y aprenderemos juntos en esta aventura!</string>
-    <string name="children_2">Cada vez que toques cosas del suelo o vuelvas de la calle \'Lávate las manos con agua y jabón\'.</string>
-    <string name="children_3">Si vas a hacer \'Achús!\', estornudar o toser tapate la nariz con un pañuelo.</string>
-    <string name="children_4">Alejate de las personas que estornudan o esten resfriados sino te pondrás enfermo.</string>
-    <string name="children_5">Si ves que te has resfriado o te sientes enfermo avisa a tus papás para que te lleven al hospital.</string>
+    <string name="children_1">Bienvenid@, aquí aprenderemos juntos qué tenemos que hacer para estar seguros. ¡Acompáñame y aprenderemos juntos en esta aventura!</string>
+    <string name="children_2">Cada vez que toques cosas del suelo o vuelvas de la calle lávate las manos con agua y jabón.</string>
+    <string name="children_3">Si vas a hacer \"¡Achús!\", estornudar o toser tápate la nariz con un pañuelo.</string>
+    <string name="children_4">Aléjate de las personas que estornudan o estén resfriados, si no te pondrás enfermo.</string>
+    <string name="children_5">Si ves que te has resfriado o te sientes enfermo, avisa a tus papás para que te lleven al hospital.</string>
     <string name="children_6">Espero que te lo hayas pasado bien aprendiendo conmigo, que tengas cuidado y ¡haz caso a tus papás!</string>
 
     <!--  Ranking  -->
