@@ -2,24 +2,24 @@
 
 ### Indice global
 
-[00:00-00:10]() **Presentación de la Exposición** (Oscar)  
-[00:10-00:20]() **Miembros del Equipo** (Oscar)  
-[00:20-01:00]() **Asignación de Roles** (Marcos Rodriguez)  
+[00:00-00:10]() ~~**Presentación de la Exposición**~~ (Oscar) 
+[00:10-00:20]() ~~**Miembros del Equipo**~~ (Oscar)  
+[00:20-01:00]() ~~**Asignación de Roles**~~ (Marcos Rodriguez)  
 [01:00-01:30]() **Sprint Planning** (Marcos Robles)   
 [01:30-02:00]() **Matriz taste con OKR's (Moonshot & Roofshot)** (Serghei)   
-[02:00-02:30]() **Limitación del WIP** (Marcos Rodriguez)  
+[02:00-02:30]() ~~**Limitación del WIP**~~ (Marcos Rodriguez)  
 [02:30-03:00]() **Buenas Prácticas** (Alex)  
 [03:00-03:30]() **Motivación del Equipo** (Alex)  
 [03:30-04:00]() **Mejora del Equipo** (Daniel)       
 [04:00-04:30]() **1ª HU : Mejora de la interfaz** (Alex)    
-[04:30-05:00]() **2ª HU : Más idiomas** (Oscar)    
+[04:30-05:00]() ~~**2ª HU : Más idiomas**~~ (Oscar)    
 [05:00-05:30]() **3ª HU : Adaptar a todos los públicos** (Serghei)   
 [05:30-06:00]() **Daily Meetings** (Serghei)  
 [06:00-06:30]() **Lead/Cycle time** (Marcos Robles)  
 [06:30-07:00]() **Burn down/up** (Marcos Robles)    
 [07:00-07:30]() **Niko-Niko** (Daniel)   
 [07:30-08:00]() **Retrospectiva** (Daniel)   
-[08:00-10:00]() **Trailer de la App** (Marcos Rodriguez)    
+[08:00-10:00]() ~~**Trailer de la App**~~ (Marcos Rodriguez)    
 
 ## Script
 
