@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_covid_stats, R.id.nav_covid_ranking, R.id.nav_covid_info, R.id.nav_covid_test, R.id.nav_covid_scores, R.id.nav_covid_lang)
+                R.id.nav_home, R.id.nav_covid_stats, R.id.nav_covid_ranking, R.id.nav_covid_info, R.id.nav_covid_children_info, R.id.nav_covid_test, R.id.nav_covid_scores, R.id.nav_covid_lang)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
