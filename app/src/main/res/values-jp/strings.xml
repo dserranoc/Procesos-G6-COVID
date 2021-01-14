@@ -20,6 +20,7 @@
     <string name="menu_covid_stats">状態</string>
     <string name="menu_covid_ranking">ランキング</string>
     <string name="menu_covid_info">情報</string>
+    <string name="menu_covid_children_info">子供達</string>
     <string name="menu_covid_test">アンケート</string>
     <string name="menu_scores">スコア</string>
     <string name="menu_lang">言語</string>
@@ -41,6 +42,14 @@
     <string name="info_a1">COVID-19の最も一般的な症状は、発熱、乾いた咳、および疲労です。 一部の患者に影響を与える他のあまり一般的ではない症状には、痛みや痛み、鼻のうっ血、頭痛、結膜炎、喉の痛み、下痢、味や匂いの喪失、皮膚の発疹や指や指の変色などがあります。 フィート。 これらの症状は通常軽度で、徐々に始まります。 感染した人の中には、非常に軽度の症状しかない人もいます。</string>
     <string name="info_q2">私は危険にさらされていますか？</string>
     <string name="info_a2">ほとんどの人（約80％）は、病院での治療を必要とせずに病気から回復します。 COVID-19に感染した人の約5人に1人が深刻な状態を発症し、呼吸困難を経験します。 高齢者や、高血圧、心臓や肺の問題、糖尿病、癌などの以前の病状のある人は、深刻な状態を発症する可能性が高くなります。 ただし、誰でもCOVID-19を取得して、重病になる可能性があります。</string>
+
+    <!-- Children -->
+    <string name="children_1">ここへようこそ、私たちは安全のために何をしなければならないかを一緒に学びます。私に加わってください、そして私たちはこの冒険で一緒に学びます！</string>
+    <string name="children_2">地面に触れたり、通りから戻ってきたりするたびに\'石鹸と水で手を洗ってください\'。</string>
+    <string name="children_3">\'Achús！\'、くしゃみや咳をする場合は、鼻をティッシュで覆ってください。</string>
+    <string name="children_4">くしゃみをしたり、風邪をひいたりする人には近づかないでください。そうしないと病気になります。</string>
+    <string name="children_5">風邪を引いたり気分が悪くなったりした場合は、両親に知らせて病院に連れて行ってもらいましょう。</string>
+    <string name="children_6">あなたが私と一緒に楽しく学んだことを願っています、あなたが注意深くそしてあなたの両親に耳を傾けることを！</string>
 
     <!--  Ranking  -->
     <string name="ranking_title">症例数トップ5</string>

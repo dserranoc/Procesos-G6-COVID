@@ -25,10 +25,17 @@
         tools:layout="@layout/fragment_ranking" />
 
     <fragment
+        android:id="@+id/nav_covid_children_info"
+        android:name="com.gsix.covid.ui.info.ChildrenInfoFragment"
+        android:label="@string/menu_covid_children_info"
+        tools:layout="@layout/fragment_children_info" />
+
+    <fragment
         android:id="@+id/nav_covid_info"
         android:name="com.gsix.covid.ui.info.InfoFragment"
         android:label="@string/menu_covid_info"
         tools:layout="@layout/fragment_info" />
+
     <fragment
         android:id="@+id/nav_covid_test"
         android:name="com.gsix.covid.ui.quiz.QuizFragment"
