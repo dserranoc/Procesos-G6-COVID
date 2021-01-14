@@ -87,3 +87,61 @@ sea atractivo e intuitivo para el cliente. Aqui podemos ver el resultado que ha
 quedado muy atractivo sinceramente.
 
 ### **2ª HU : Más idiomas** (Oscar) (**Max 30 seg**)   
+
+En esta historia de usuario que ha realizado Marcos Rodriguez del equipo de desarrollo
+podemos ver que se basaba en añadir mas idiomas a la aplicación para llegar a más
+gente y que la población se encuentre más informada de la situación actual del COVID-19
+en el mundo.
+
+### **3ª HU : Adaptar a todos los públicos** (Serghei) (**Max 30 seg**)   
+
+Esta historia de usuario se basaba en añadir una página de información más grafica para
+niños con dibujos y explicaciones más sencillas de entender para así conseguir que la
+aplicación llegase a todos los públicos y hasta los más jóvenes estuvieran informados
+de que hacer en esta situación de COVID-19.
+
+### **Daily Meetings** (Serghei) (**Max 30 seg**)    
+
+Como podemos ver hemos aumentado en un 25% los daily meeting y en total hemos realizado
+seis reuniones para poner en comun las ideas, los problemas que nos hemos ido encontrando
+y ver que es en lo que vamos a estar trabajando en esta y posteriores sesiones.
+
+### **Lead/Cycle time** (Marcos Robles) (**Max 30 seg**)    
+
+*Necesitas esperar a que terminemos las HU's para grabar esto ya que tienes que sacar
+los datos de las gráficas de Screenful*
+
+Comentar el lead time mide los tiempos que tarda un item de ir de la columna TODO a la 
+columna DONE (Comentar el Lead Time de Screenful) y el valor de nuestro cycle time que
+es el tiempo que tarda un item de ir de la columna DOING a la DONE es de (Comentar el
+Cycle Time de Screenful).
+
+### **Burn down/up** (Marcos Robles) (**Max 30 seg**)    
+
+*Necesitas esperar a que terminemos las HU's para grabar esto ya que tienes que sacar
+los datos de las gráficas de Screenful*
+
+Comentar que aqui tenemos el Burnup chart que sirve para ayudar a nuestro equipo encontrar
+un ritmo sostenible. La idea es que en el eje evertical podemos ver una línea que nos permite
+gestionar nuestras expectativas y ver si tenemos un ritmo sostenible de trabajo.
+
+(https://blog.jmbeas.es/2015/05/19/burn-up-chart/)
+
+### **Niko-Niko** (Daniel) (**Max 30 seg**)    
+
+(https://docs.google.com/document/d/1ZlKftj__mrdv8e2YVaQg4VfWl2wBaOrsa-9M4kbdTBY/edit)
+
+Comentar que aqui podemos ver la grafica de todas la reuniones en las que hemos realizado el
+Niko-Niko y como bien podemos observar tenemos más emoticonos de agobiado o estresado durante
+este Sprint respecto a los anteriores aunque hayamos podido finalizar exitosamente el Sprint.
+
+### **Retrospectiva** (Daniel) (**Max 30 seg**)    
+
+*Necesitas esperar a que terminemos las HU's para que terminemos después entre todos la
+restrospectiva y luego podrás grabarlo*
+
+(Por completar para cuando finalicemos la retrospectiva)
+
+### **Trailer de la App** (Marcos Rodriguez) (**Max 10 seg**)  
+
+Comentar que a continuación procederemos a poner el trailer de nuestro producto.
