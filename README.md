@@ -2,8 +2,8 @@
 
 ### Indice global
 
-[00:00-00:10]() ~~**Presentación de la Exposición**~~ (Oscar) 
-[00:10-00:20]() ~~**Miembros del Equipo**~~ (Oscar)  
+[00:00-00:10]() ~~**Presentación de la Exposición**~~ (Oscar)   
+[00:10-00:20]() ~~**Miembros del Equipo**~~ (Oscar)    
 [00:20-01:00]() ~~**Asignación de Roles**~~ (Marcos Rodriguez)  
 [01:00-01:30]() **Sprint Planning** (Marcos Robles)   
 [01:30-02:00]() **Matriz taste con OKR's (Moonshot & Roofshot)** (Serghei)   
