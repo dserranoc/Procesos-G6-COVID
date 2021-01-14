@@ -8,7 +8,7 @@
     <string name="nav_header_title">G-Six</string>
     <string name="nav_header_subtitle">Procesos Software - URJC</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Ajustes</string>
+    <string name="action_settings">Configurações</string>
 
     <!--  Reusables  -->
 
@@ -20,6 +20,7 @@
     <string name="menu_covid_stats">Estado</string>
     <string name="menu_covid_ranking">Ranking</string>
     <string name="menu_covid_info">Em formação</string>
+    <string name="menu_covid_children_info">Crianças</string>
     <string name="menu_covid_test">Questionário</string>
     <string name="menu_scores">Pontuações</string>
     <string name="menu_lang">Língua</string>
@@ -41,6 +42,14 @@
     <string name="info_a1">Os sintomas mais comuns da COVID-19 são febre, tosse seca e fadiga. Outros sintomas menos comuns que afetam alguns pacientes incluem dores e dores, congestão nasal, dor de cabeça, conjuntivite, dor de garganta, diarreia, perda de paladar ou cheiro e erupções cutâneas ou descoloração dos dedos das mãos. os pés. Esses sintomas são geralmente leves e começam gradualmente. Algumas das pessoas infectadas apresentam apenas sintomas muito leves.</string>
     <string name="info_q2">Estou em perigo?</string>
     <string name="info_a2">A maioria das pessoas (cerca de 80%) se recupera da doença sem a necessidade de tratamento hospitalar. Cerca de 1 em cada 5 pessoas que contraem COVID-19 desenvolvem um estado grave e apresentam dificuldades respiratórias. Idosos e pessoas com condições médicas anteriores, como hipertensão, problemas cardíacos ou pulmonares, diabetes ou câncer, têm maior probabilidade de desenvolver doenças graves. No entanto, qualquer pessoa pode pegar COVID-19 e ficar gravemente doente.</string>
+
+    <!-- Children -->
+    <string name="children_1">Bem-vindos aqui vamos aprender juntos o que temos que fazer para ficarmos seguros Junte-se a mim e aprenderemos juntos nessa aventura!</string>
+    <string name="children_2">Toda vez que você tocar em coisas do chão ou voltar da rua \'Lave as mãos com água e sabão \'.</string>
+    <string name="children_3">Se você vai fazer \'Achús! \', Espirrar ou tossir, cubra o nariz com um lenço de papel.</string>
+    <string name="children_4">Fique longe de pessoas que espirros ou resfriados, caso contrário, você ficará doente.</string>
+    <string name="children_5">Se você vir que pegou um resfriado ou se sente mal, avise seus pais para que eles possam levá-lo ao hospital.</string>
+    <string name="children_6">Espero que você tenha se divertido aprendendo comigo, que é cuidadoso e ouve seus pais!</string>
 
     <!--  Ranking  -->
     <string name="ranking_title">5 principais em número de casos</string>
@@ -101,5 +110,7 @@
 
     <string name="quiz_error">Você deve marcar todas as caixas!</string>
     <string name="lang_selection_msg">Escolha o idioma desejado:</string>
-
+    <string name="btn_go_quiz">Vá para o questionário</string>
+    <string name="no_scores">Para que as pontuações sejam exibidas, você deve responder ao questionário pelo menos uma vez.</string>
+    <string name="scores_text">Estes são os resultados do seu questionário:</string>
 </resources>

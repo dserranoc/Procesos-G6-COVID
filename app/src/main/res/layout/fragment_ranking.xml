@@ -1,153 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5F1FF"
     android:orientation="vertical"
     tools:context=".ui.ranking.RankingFragment">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/circle"
+        android:scaleType="centerCrop" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/ic_guy"
+        android:scaleType="centerCrop" />
+
 
     <!-- Country -->
-
-    <!-- First Country -->
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="228dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/ranking_title"
-        android:textStyle="bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textSize="18sp" />
-
-    <TableLayout
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rectanglebordered"
+        android:orientation="vertical"
+        android:gravity="center">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <!-- First Country -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/ranking_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/first_country"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
 
-            <TextView
-                android:id="@+id/first_amount"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text=""
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        </TableRow>
+                <TextView
+                    android:id="@+id/first_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/first_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:text=""
+                    android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/second_country"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
+            </TableRow>
 
-            <TextView
-                android:id="@+id/second_amount"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text=""
-                android:textSize="18sp" />
-        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/second_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
 
-            <TextView
-                android:id="@+id/third_country"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/second_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:text=""
+                    android:textSize="18sp" />
+            </TableRow>
 
-            <TextView
-                android:id="@+id/third_amount"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text=""
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        </TableRow>
+                <TextView
+                    android:id="@+id/third_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/third_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:text=""
+                    android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/fourth_country"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
+            </TableRow>
 
-            <TextView
-                android:id="@+id/fourth_amount"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text=""
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        </TableRow>
+                <TextView
+                    android:id="@+id/fourth_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/fourth_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:text=""
+                    android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/fifth_country"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
+            </TableRow>
 
-            <TextView
-                android:id="@+id/fifth_amount"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text=""
-                android:textSize="18sp" />
-        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="24dp">
 
-    </TableLayout>
+                <TextView
+                    android:id="@+id/fifth_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/fifth_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:text=""
+                    android:textSize="18sp" />
+            </TableRow>
+
+        </TableLayout>
 
 
-    <!-- Second Country -->
+        <!-- Second Country -->
 
 
-    <!-- Third Country -->
+        <!-- Third Country -->
 
 
-    <!-- Fourth Country -->
+        <!-- Fourth Country -->
 
-    <!-- Fifth Country -->
+        <!-- Fifth Country -->
 
-</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

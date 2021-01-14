@@ -21,6 +21,7 @@
     <string name="menu_covid_stats">Statistiques</string>
     <string name="menu_covid_ranking">Ranking</string>
     <string name="menu_covid_info">Information</string>
+    <string name="menu_covid_children_info">Enfants</string>
     <string name="menu_covid_test">Questionnaire</string>
     <string name="menu_lang">Langage</string>
 
@@ -41,6 +42,14 @@
     <string name="info_a1">Les symptômes les plus courants du COVID-19 sont la fièvre, la toux sèche et la fatigue. D\'autres symptômes moins courants qui affectent certains patients comprennent les courbatures et les douleurs, la congestion nasale, les maux de tête, la conjonctivite, les maux de gorge, la diarrhée, la perte de goût ou d\'odeur et les éruptions cutanées ou la décoloration des doigts ou des doigts. les pieds. Ces symptômes sont généralement légers et commencent progressivement. Certaines des personnes infectées ne présentent que des symptômes très légers.</string>
     <string name="info_q2">Je suis en danger?</string>
     <string name="info_a2">La plupart des gens (environ 80%) se rétablissent de la maladie sans avoir besoin de soins hospitaliers. Environ 1 personne sur 5 qui contracte le COVID-19 développe une maladie grave et éprouve des difficultés respiratoires. Les personnes âgées et celles ayant des problèmes de santé antérieurs, tels que l\'hypertension artérielle, des problèmes cardiaques ou pulmonaires, le diabète ou le cancer, sont plus susceptibles de développer des maladies graves. Cependant, n\'importe qui peut contracter le COVID-19 et devenir gravement malade.</string>
+
+    <!-- Children -->
+    <string name="children_1">Bienvenue ici, nous apprendrons ensemble ce que nous devons faire pour être en sécurité. Rejoignez-moi et nous apprendrons ensemble dans cette aventure!</string>
+    <string name="children_2">Chaque fois que vous touchez des objets par terre ou que vous revenez de la rue \'Lavez-vous les mains avec du savon et de l\'eau \'.</string>
+    <string name="children_3">Si vous allez faire \'Achús! \', Éternuer ou tousser, couvrez-vous le nez avec un mouchoir en papier.</string>
+    <string name="children_4">Éloignez-vous des personnes qui éternuent ou qui ont un rhume, sinon vous tomberez malade.</string>
+    <string name="children_5">Si vous constatez que vous avez attrapé un rhume ou que vous vous sentez malade, prévenez vos parents pour qu\'ils vous conduisent à l\'hôpital.</string>
+    <string name="children_6">J\'espère que vous avez passé un bon moment à apprendre avec moi, que vous êtes prudent et écoutez vos parents!</string>
 
     <!--  Ranking  -->
     <string name="ranking_title">Top 5 en nombre de cas</string>
@@ -103,4 +112,7 @@
 
     <string name="lang_selection_msg">Choisissez la langue souhaitée:</string>
     <string name="menu_scores">Les scores</string>
+    <string name="btn_go_quiz">Accéder au quiz</string>
+    <string name="no_scores">Pour que les scores soient affichés, vous devez répondre au quiz au moins une fois.</string>
+    <string name="scores_text">Voici les résultats de votre quiz:</string>
 </resources>

@@ -2,38 +2,52 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
+    <item>
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_covid_stats"
+                    android:icon="@drawable/ic_insert_chart"
+                    android:title="@string/menu_covid_stats" />
+                <item
+                    android:id="@+id/nav_covid_ranking"
+                    android:icon="@drawable/ic_star"
+                    android:title="@string/menu_covid_ranking" />
+                <item
+                    android:id="@+id/nav_covid_info"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/menu_covid_info" />
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_home"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_covid_stats"
-            android:icon="@drawable/ic_insert_chart"
-            android:title="@string/menu_covid_stats" />
-        <item
-            android:id="@+id/nav_covid_ranking"
-            android:icon="@drawable/ic_star"
-            android:title="@string/menu_covid_ranking" />
-        <item
-            android:id="@+id/nav_covid_info"
-            android:icon="@drawable/ic_info"
-            android:title="@string/menu_covid_info" />
+                <item
+                    android:id="@+id/nav_covid_children_info"
+                    android:icon="@drawable/ic_face"
+                    android:title="@string/menu_covid_children_info" />
+                
+                <item
+                    android:id="@+id/nav_covid_test"
+                    android:icon="@drawable/ic_live_help"
+                    android:title="@string/menu_covid_test" />
 
-        <item
-            android:id="@+id/nav_covid_test"
-            android:icon="@drawable/ic_live_help"
-            android:title="@string/menu_covid_test" />
+                <item
+                    android:id="@+id/nav_covid_scores"
+                    android:icon="@drawable/ic_playlist_add_check"
+                    android:title="@string/menu_scores" />
 
-        <item
-            android:id="@+id/nav_scores"
-            android:icon="@drawable/ic_playlist_add_check"
-            android:title="@string/menu_scores" />
-
-        <item
-            android:id="@+id/nav_lang"
-            android:icon="@drawable/ic_public"
-            android:title="@string/menu_lang" />
-    </group>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/action_settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_covid_lang"
+                    android:icon="@drawable/ic_public"
+                    android:title="@string/menu_lang" />
+            </group>
+        </menu>
+    </item>
 </menu>

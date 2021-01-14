@@ -20,6 +20,7 @@
     <string name="menu_covid_stats">Stats</string>
     <string name="menu_covid_ranking">Ranking</string>
     <string name="menu_covid_info">Info</string>
+    <string name="menu_covid_children_info">Children</string>
     <string name="menu_covid_test">Quiz</string>
     <string name="menu_lang">Language</string>
 
@@ -40,6 +41,14 @@
     <string name="info_a1">The most common symptoms of COVID-19 are fever, dry cough, and fatigue. Other less common symptoms that affect some patients include aches and pains, nasal congestion, headache, conjunctivitis, sore throat, diarrhea, loss of taste or smell, and skin rashes or color changes. on the fingers or toes. These symptoms are usually mild and begin gradually. Some of the infected people have only very mild symptoms.</string>
     <string name="info_q2">Am I in danger?</string>
     <string name="info_a2">Most people (about 80%) recover from the disease without the need for hospital treatment. About 1 in 5 people who contract COVID-19 develop a severe condition and experience breathing difficulties. Older people and those with previous medical conditions such as high blood pressure, heart or lung problems, diabetes, or cancer are more likely to develop severe conditions. However, anyone can get COVID-19 and become seriously ill.</string>
+
+    <!-- Children -->
+    <string name="children_1">Welcome here we will learn together what we have to do to be safe. Join me and we will learn together in this adventure!</string>
+    <string name="children_2">Every time you touch things on the ground or come back from the street \'Wash your hands with soap and water\'.</string>
+    <string name="children_3">If you are going to do \'Achús!\', Sneeze or cough, cover your nose with a tissue.</string>
+    <string name="children_4">Stay away from people who sneeze or have colds otherwise you will get sick.</string>
+    <string name="children_5">If you see that you have caught a cold or feel ill, notify your parents so they can take you to the hospital.</string>
+    <string name="children_6">I hope you had a good time learning with me, that you are careful and listen to your parents!</string>
 
     <!--  Ranking  -->
     <string name="ranking_title">Top 5 in Cases Amount: </string>
@@ -100,7 +109,13 @@
 
     <string name="quiz_error">You must check all the boxes!</string>
 
+
+
     <string name="lang_selection_msg">Please choose the desired language:</string>
     <string name="menu_scores">Scores</string>
+    <string name="btn_go_quiz">Go to quiz</string>
+    <string name="no_scores">For scores to be displayed, you must answer the quiz at least once.</string>
+    <string name="scores_text">These are your quiz results:</string>
+
 
 </resources>

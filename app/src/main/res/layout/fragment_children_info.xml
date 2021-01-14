@@ -7,11 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.info.ChildrenInfoFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="#E5F1FF"
         android:orientation="vertical">
 
@@ -41,8 +41,9 @@
             android:scaleType="centerCrop" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="160dp"
@@ -53,72 +54,32 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/heading_1"
+                android:id="@+id/children_intro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:layout_marginLeft="28dp"
                 android:layout_marginTop="24dp"
-                android:text="@string/home_h1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/text_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="5dp"
                 android:layout_marginEnd="28dp"
                 android:layout_marginRight="28dp"
                 android:justificationMode="inter_word"
-                android:text="@string/home_text1"
+                android:text="@string/children_1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="16sp" />
 
-            <TextView
-                android:id="@+id/heading_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/home_h2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView5a"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/children_1"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
 
             <TextView
-                android:id="@+id/text_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginRight="28dp"
-                android:justificationMode="inter_word"
-                android:text="@string/home_text2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#000000"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/heading_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/home_h3"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/text_3"
+                android:id="@+id/children_text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
@@ -127,25 +88,25 @@
                 android:layout_marginEnd="28dp"
                 android:layout_marginRight="28dp"
                 android:justificationMode="inter_word"
-                android:text="@string/home_text3"
+                android:text="@string/children_2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textStyle="bold"  />
+
+            <ImageView
+                android:id="@+id/imageView6a"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/children_2"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
 
             <TextView
-                android:id="@+id/heading_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/home_h4"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/text_4"
+                android:id="@+id/children_text_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
@@ -154,41 +115,80 @@
                 android:layout_marginEnd="28dp"
                 android:layout_marginRight="28dp"
                 android:justificationMode="inter_word"
-                android:text="@string/home_text4"
+                android:text="@string/children_3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7a"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/children_3"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
 
             <TextView
-                android:id="@+id/heading_5"
+                android:id="@+id/children_text_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:layout_marginLeft="28dp"
                 android:layout_marginTop="5dp"
-                android:text="@string/home_h5"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:justificationMode="inter_word"
+                android:text="@string/children_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"
                 android:textColor="#000000"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/imageView8a"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/children_4"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
             <TextView
-                android:id="@+id/text_5"
+                android:id="@+id/children_text_4"
                 android:layout_width="wrap_content"
-                android:layout_height="81dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:layout_marginLeft="28dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="28dp"
                 android:layout_marginRight="28dp"
-                android:layout_marginBottom="24dp"
                 android:justificationMode="inter_word"
-                android:text="@string/home_text5"
+                android:text="@string/children_5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"
                 android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/children_outro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:justificationMode="inter_word"
+                android:text="@string/children_6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="16sp" />
 
         </LinearLayout>
-
-
     </RelativeLayout>
-</ScrollView>
+    </ScrollView>

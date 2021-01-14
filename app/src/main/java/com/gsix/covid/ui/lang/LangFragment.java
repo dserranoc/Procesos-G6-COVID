@@ -9,10 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.core.content.IntentCompat;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.gsix.covid.R;
 import com.orhanobut.hawk.Hawk;
@@ -26,6 +30,10 @@ public class LangFragment extends Fragment {
 
 
         View root = inflater.inflate(R.layout.fragment_lang, container, false);
+        NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
+        TextView toolbarTitle = getActivity().findViewById(R.id.toolbar_title);
+
+        toolbarTitle.setText(navController.getCurrentDestination().getLabel());
         return root;
     }
 

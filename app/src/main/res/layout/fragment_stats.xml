@@ -1,241 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    tools:context=".ui.stats.StatsFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ui.stats.StatsFragment">
-    <!-- Country -->
+    android:background="#E5F1FF"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/circle"
+        android:scaleType="centerCrop" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_guy"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="-25dp"/>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="24dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        android:text="@string/stats_heading"/>
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rectanglebordered"
+        android:orientation="vertical">
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="@string/stats_heading"
+            />
 
-        <TableRow
+        <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp">
 
-            <TextView
-                android:id="@+id/countryLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_country"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/country"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/countryLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/stats_country"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/activeCasesLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_active_cases"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/activeCases"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/activeCasesLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_active_cases"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/activeCases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/criticalCasesLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_critical_cases"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/criticalCases"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/criticalCasesLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_critical_cases"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/criticalCases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/recoveredLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_recovered"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/recovered"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/recoveredLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_recovered"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/recovered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/totalCasesLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_total_cases"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/totalCases"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/totalCasesLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_total_cases"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/totalCases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/todayCasesLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_today_cases"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/todayCases"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/todayCasesLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_today_cases"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/todayCases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/deceasesLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_total_deceases"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/deceases"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/deceasesLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_total_deceases"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/deceases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/populationLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_population"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/population"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/populationLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_population"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/population"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/lastUpdatedLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="@string/stats_last_updated"
-                android:textSize="18sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
 
-            <TextView
-                android:id="@+id/lastUpdated"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:text="@string/loading"
-                android:textSize="18sp" />
-        </TableRow>
-    </TableLayout>
+                <TextView
+                    android:id="@+id/lastUpdatedLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:text="@string/stats_last_updated"
+                    android:textSize="18sp" />
 
-    <!-- Active Cases -->
+                <TextView
+                    android:id="@+id/lastUpdated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/loading"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"/>
+            </TableRow>
+        </TableLayout>
 
-
-    <!-- Critical Cases -->
-
-
-    <!-- Recovered -->
-
-
-    <!-- Total cases -->
-
-    <!-- Today cases -->
-
-    <!-- Today deaths -->
-
-    <!-- Population -->
+    </LinearLayout>
 
 
-    <!-- Last updated -->
+</RelativeLayout>
 
-</LinearLayout>

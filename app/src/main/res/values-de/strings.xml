@@ -9,7 +9,7 @@
     <string name="nav_header_title">G-Six</string>
     <string name="nav_header_subtitle">Procesos Software - URJC</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Einstellungen</string>
 
     <!--  Reusables  -->
 
@@ -21,6 +21,7 @@
     <string name="menu_covid_stats">Statistiken</string>
     <string name="menu_covid_ranking">Rangfolge</string>
     <string name="menu_covid_info">Die Info</string>
+    <string name="menu_covid_children_info">Kinder</string>
     <string name="menu_covid_test">Quiz</string>
     <string name="menu_lang">Sprache</string>
 
@@ -41,6 +42,14 @@
     <string name="info_a1">Die häufigsten Symptome von COVID-19 sind Fieber, trockener Husten und Müdigkeit. Andere weniger häufige Symptome, die einige Patienten betreffen, sind Schmerzen, verstopfte Nase, Kopfschmerzen, Bindehautentzündung, Halsschmerzen, Durchfall, Geschmacks- oder Geruchsverlust sowie Hautausschläge oder Farbveränderungen. an den Fingern oder Zehen. Diese Symptome sind normalerweise mild und beginnen allmählich. Einige der Infizierten haben nur sehr milde Symptome.</string>
     <string name="info_q2">Bin ich in Gefahr?</string>
     <string name="info_a2">Die meisten Menschen (etwa 80%) erholen sich von der Krankheit, ohne dass eine Krankenhausbehandlung erforderlich ist. Ungefähr 1 von 5 Personen, die sich mit COVID-19 infizieren, entwickeln eine schwere Erkrankung und haben Atembeschwerden. Ältere Menschen und Menschen mit früheren Erkrankungen wie Bluthochdruck, Herz- oder Lungenproblemen, Diabetes oder Krebs entwickeln mit größerer Wahrscheinlichkeit schwere Erkrankungen. Jeder kann jedoch COVID-19 bekommen und schwer krank werden.</string>
+
+    <!-- Children -->
+    <string name="children_1">Willkommen hier, wir werden gemeinsam lernen, was wir tun müssen, um sicher zu sein. Mach mit und wir lernen gemeinsam in diesem Abenteuer!</string>
+    <string name="children_2">Jedes Mal, wenn Sie Dinge auf dem Boden berühren oder von der Straße zurückkommen, waschen Sie Ihre Hände mit Wasser und Seife.</string>
+    <string name="children_3">Wenn Sie "Achús!", Niesen oder Husten machen wollen, bedecken Sie Ihre Nase mit einem Papiertaschentuch.</string>
+    <string name="children_4">Halten Sie sich von Menschen fern, die niesen oder erkältet sind, sonst werden Sie krank.</string>
+    <string name="children_5">Wenn Sie feststellen, dass Sie sich erkältet haben oder sich krank fühlen, benachrichtigen Sie Ihre Eltern, damit sie Sie ins Krankenhaus bringen können.</string>
+    <string name="children_6">Ich hoffe du hattest eine gute Zeit mit mir zu lernen, dass du vorsichtig bist und auf deine Eltern hörst!</string>
 
     <!--  Ranking  -->
     <string name="ranking_title">Top 5 in Fällen Menge</string>
@@ -103,4 +112,7 @@
 
     <string name="lang_selection_msg">Bitte wählen Sie die gewünschte Sprache:</string>
     <string name="menu_scores">Scores</string>
+    <string name="btn_go_quiz">Gehen Sie zum Quiz</string>
+    <string name="no_scores">Damit Partituren angezeigt werden, müssen Sie das Quiz mindestens einmal beantworten.</string>
+    <string name="scores_text">Dies sind Ihre Quizergebnisse:</string>
 </resources>

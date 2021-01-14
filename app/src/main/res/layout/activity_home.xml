@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@drawable/rounded_side_nav"
     tools:openDrawer="start">
 
     <include
@@ -19,12 +20,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        app:itemBackground="@drawable/rounded_side_nav"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" >
 
-        <SeekBar
-            android:id="@+id/seekBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </com.google.android.material.navigation.NavigationView>
+
 </androidx.drawerlayout.widget.DrawerLayout>

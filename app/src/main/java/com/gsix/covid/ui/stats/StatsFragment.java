@@ -11,6 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.gsix.covid.R;
 import com.gsix.covid.application.android.task.GetCovidDataTask;
@@ -32,6 +34,10 @@ public class StatsFragment extends Fragment {
 //            }
 //        });
 //        refreshData();
+        NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
+        TextView toolbarTitle = getActivity().findViewById(R.id.toolbar_title);
+
+        toolbarTitle.setText(navController.getCurrentDestination().getLabel());
         return root;
     }
 
@@ -67,7 +73,7 @@ public class StatsFragment extends Fragment {
                 population.setText(String.valueOf(data.getPopulation()));
 
                 TextView lastUpdated = getView().findViewById(R.id.lastUpdated);
-                SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM, YYYY");
+                SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
                 lastUpdated.setText(formatter.format(data.getLastUpdated()));
             });
         } catch(Exception e) {
